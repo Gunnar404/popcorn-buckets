@@ -60,6 +60,12 @@ const BucketSchema = z.object({
   name: z
     .string()
     .describe("Short name of the collectible, e.g. 'Sandworm popcorn bucket' or 'Book tin'"),
+  design: z
+    .string()
+    .nullable()
+    .describe(
+      "2-4 word canonical name of the physical design, written identically when the same bucket is sold at several chains (e.g. 'fish bowl', 'doctor doom statue', 'sandworm')",
+    ),
   chain: z.string().describe(`Theater chain. One of: ${KNOWN_CHAINS.join(", ")}`),
   availableDate: z
     .string()
@@ -121,7 +127,7 @@ Find every collectible popcorn bucket that goes on sale (or went on sale) betwee
 Search widely: chain announcements and social posts (AMC, Regal, Cinemark, Galaxy Theatres), and sites that cover this beat such as attractionsmagazine.com, hauntedattractionnetwork.com, comicbasics.com, mickeyvisit.com, allears.net, sporked.com, hollywoodlife.com, and r/popcornbuckets. Fetch the actual articles rather than relying on snippets. Ignore spam/SEO pages that only repeat a title.
 
 For each distinct item (one entry per chain per design; if three chains sell different buckets for the same movie, that is three entries) record:
-- movie, chain, short name of the item
+- movie, chain, short name of the item, and whether the same design is also sold at another chain
 - date it is first available in theaters (YYYY-MM-DD) and any caveat (estimated, preview night, "coming soon")
 - the movie's US release date
 - price and how it's sold (with a large popcorn, online pre-order, in-theater only, while supplies last)

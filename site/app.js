@@ -75,12 +75,59 @@ function hostOf(url) {
   }
 }
 
-function card(b) {
-  const color = chainColor(b.chain);
-  const pic = el("div", { class: "pic", style: `--chip:${color}` });
-  const sources = [b.image, b.imageUrl].filter(Boolean);
+// ---------- grouping the same bucket across chains ----------
+
+const FILLER = new Set(
+  "a an and the of with in on for popcorn bucket buckets collectible collectibles container containers exclusive limited edition theater theaters version".split(" "),
+);
+const CHAIN_ORDER = Object.keys(CHAIN_COLORS);
+
+function words(s) {
+  return String(s ?? "")
+    .toLowerCase()
+    .replace(/['’]s\b/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .split(" ")
+    .filter(Boolean)
+    .map((w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w));
+}
+
+// Words that describe the design itself: no movie title, no filler.
+function designWords(b) {
+  const movie = new Set(words(b.movie));
+  return words(b.design ?? b.name).filter((w) => !FILLER.has(w) && !movie.has(w));
+}
+
+function sameDesign(a, b) {
+  if (a.movie !== b.movie) return false;
+  if (a.design && b.design) return words(a.design).join("") === words(b.design).join("");
+  const wa = designWords(a);
+  const wb = designWords(b);
+  if (!wa.length || !wb.length) return false;
+  if (wa.join("") === wb.join("")) return true; // "fish bowl" == "fishbowl"
+  const [small, big] = wa.length <= wb.length ? [wa, wb] : [wb, wa];
+  return small.length >= 2 && small.every((w) => big.includes(w)); // "doctor doom statue" ⊂ "led doctor doom statue"
+}
+
+/** Merge items that are the same design at different chains into groups. */
+function groupItems(items) {
+  const groups = [];
+  for (const b of items) {
+    const g = groups.find((g) => !g.some((m) => m.chain === b.chain) && g.some((m) => sameDesign(m, b)));
+    if (g) g.push(b);
+    else groups.push([b]);
+  }
+  for (const g of groups) g.sort((a, b) => CHAIN_ORDER.indexOf(a.chain) - CHAIN_ORDER.indexOf(b.chain));
+  return groups;
+}
+
+function card(group) {
+  const first = group[0];
+  const withImg = group.find((m) => m.image || m.imageUrl) ?? first;
+  const pic = el("div", { class: "pic" });
+  const sources = [withImg.image, withImg.imageUrl].filter(Boolean);
   if (sources.length) {
-    const img = el("img", { src: sources[0], alt: `${b.movie} ${b.name}`, loading: "lazy", referrerpolicy: "no-referrer" });
+    const img = el("img", { src: sources[0], alt: `${first.movie} ${first.name}`, loading: "lazy", referrerpolicy: "no-referrer" });
     img.addEventListener("error", () => {
       sources.shift();
       if (sources.length) img.src = sources[0];
@@ -91,36 +138,61 @@ function card(b) {
   } else {
     pic.append(el("span", { class: "ph" }, "🍿"));
   }
-  pic.append(el("span", { class: "badge" }, b.chain));
+  pic.append(
+    el(
+      "div",
+      { class: "badges" },
+      group.map((m) => el("span", { class: "badge", style: `--chip:${chainColor(m.chain)}` }, m.chain)),
+    ),
+  );
 
   const facts = el("dl", { class: "facts" });
-  const fact = (k, v) => v && facts.append(el("dt", {}, k), el("dd", {}, v));
+  // One line when every chain agrees, otherwise one line per chain.
+  const fact = (label, valueOf, keyOf = valueOf) => {
+    const rows = group.map((m) => [m.chain, valueOf(m), keyOf(m)]).filter(([, v]) => v);
+    if (!rows.length) return;
+    const distinct = new Set(rows.map(([, , k]) => JSON.stringify(k)));
+    const dd =
+      group.length === 1 || (distinct.size === 1 && rows.length === group.length)
+        ? rows[0][1]
+        : rows.map(([chain, v]) =>
+            el("div", { class: "per-chain" }, el("b", { style: `color:${chainColor(chain)}` }, chain), " ", v),
+          );
+    facts.append(el("dt", {}, label), el("dd", {}, dd));
+  };
   fact(
     "In theaters",
-    b.availableDate
-      ? [fmt(b.availableDate), b.dateNote ? el("span", { class: "note" }, ` · ${b.dateNote}`) : null]
-      : [el("span", { class: "tag" }, "not confirmed"), " ", b.dateNote ?? "Date TBA"],
+    (m) =>
+      m.availableDate
+        ? [fmt(m.availableDate), m.dateNote ? el("span", { class: "note" }, ` · ${m.dateNote}`) : null]
+        : [el("span", { class: "tag" }, "not confirmed"), " ", m.dateNote ?? "Date TBA"],
+    (m) => [m.availableDate, m.dateNote],
   );
-  fact("Movie opens", b.movieReleaseDate ? fmt(b.movieReleaseDate, { month: "short", day: "numeric", year: "numeric" }) : null);
-  fact("Price", b.price);
-  fact("How", b.purchaseNotes);
+  const movieDate = group.find((m) => m.movieReleaseDate)?.movieReleaseDate;
+  if (movieDate) facts.append(el("dt", {}, "Movie opens"), el("dd", {}, fmt(movieDate, { month: "short", day: "numeric", year: "numeric" })));
+  fact("Price", (m) => m.price);
+  fact("How", (m) => m.purchaseNotes);
 
+  const names = [...new Set(group.map((m) => m.name))];
+  const allSources = [...new Set(group.flatMap((m) => m.sources ?? []))];
   return el(
     "article",
-    { class: "card", id: b.id, style: `--chip:${color}` },
+    { class: "card", id: first.id },
+    group.slice(1).map((m) => el("span", { id: m.id, class: "anchor" })), // keep calendar links working
     pic,
     el(
       "div",
       { class: "body" },
-      el("h3", { class: "movie" }, b.movie),
-      el("p", { class: "name" }, b.name),
+      el("h3", { class: "movie" }, first.movie),
+      el("p", { class: "name" }, names[0]),
+      names.length > 1 && el("p", { class: "note" }, `Also listed as: ${names.slice(1).join(" · ")}`),
       facts,
-      b.description && el("p", { class: "desc" }, b.description),
-      (b.sources ?? []).length > 0 &&
+      group.find((m) => m.description) && el("p", { class: "desc" }, group.find((m) => m.description).description),
+      allSources.length > 0 &&
         el(
           "div",
           { class: "sources" },
-          b.sources.slice(0, 4).map((s) => el("a", { href: s, target: "_blank", rel: "noopener" }, hostOf(s))),
+          allSources.slice(0, 5).map((s) => el("a", { href: s, target: "_blank", rel: "noopener" }, hostOf(s))),
         ),
     ),
   );
@@ -136,8 +208,9 @@ function openViewer(src, alt) {
 
 function section(title, rel, items, { now = false, collapsed = false } = {}) {
   const heading = el("h2", {}, title, rel && el("span", { class: "rel" }, rel), el("span", { class: "rel" }, `· ${items.length}`));
+  const confirmed = (g) => (g.some((m) => m.availableDate) ? 1 : 0);
   const sorted = [...items].sort(
-    (a, b) => (b.availableDate ? 1 : 0) - (a.availableDate ? 1 : 0) || a.movie.localeCompare(b.movie) || a.chain.localeCompare(b.chain),
+    (a, b) => confirmed(b) - confirmed(a) || a[0].movie.localeCompare(b[0].movie) || b.length - a.length,
   );
   const grid = el("div", { class: "grid" }, sorted.map(card));
   if (collapsed) {
@@ -161,10 +234,12 @@ function render() {
 
   const byWeek = new Map();
   const tba = [];
-  for (const b of items) {
+  for (const g of groupItems(items)) {
     // Unconfirmed buckets almost always drop with the movie's opening week,
     // so file them there (flagged "not confirmed" on the card).
-    const when = b.availableDate ?? b.movieReleaseDate;
+    const dates = g.map((m) => m.availableDate ?? m.movieReleaseDate).filter(Boolean).sort();
+    const when = dates[0];
+    const b = g;
     if (!when) {
       tba.push(b);
       continue;

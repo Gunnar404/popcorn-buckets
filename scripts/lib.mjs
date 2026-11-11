@@ -74,6 +74,7 @@ export function normalizeIncoming(raw) {
   const b = {
     movie: cleanStr(raw.movie),
     name: cleanStr(raw.name),
+    design: cleanStr(raw.design),
     chain: normalizeChain(raw.chain),
     availableDate: cleanDate(raw.availableDate),
     dateNote: cleanStr(raw.dateNote),
