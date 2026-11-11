@@ -124,7 +124,7 @@ function researchPrompt(today, known) {
 
 Find every collectible popcorn bucket that goes on sale (or went on sale) between ${from} and ${to}, plus any already announced for later where the release date is known. New buckets usually go on sale on a Thursday, often with the movie's preview showings.
 
-Search widely: chain announcements and social posts (AMC, Regal, Cinemark, Galaxy Theatres), and sites that cover this beat such as attractionsmagazine.com, hauntedattractionnetwork.com, comicbasics.com, mickeyvisit.com, allears.net, sporked.com, hollywoodlife.com, and r/popcornbuckets. Fetch the actual articles rather than relying on snippets. Ignore spam/SEO pages that only repeat a title.
+Search widely: chain announcements and social posts (AMC, Regal, Cinemark), and sites that cover this beat such as attractionsmagazine.com, hauntedattractionnetwork.com, comicbasics.com, mickeyvisit.com, allears.net, sporked.com, hollywoodlife.com, and r/popcornbuckets. Fetch the actual articles rather than relying on snippets. Ignore spam/SEO pages that only repeat a title.
 
 For each distinct item (one entry per chain per design; if three chains sell different buckets for the same movie, that is three entries) record:
 - movie, chain, short name of the item, and whether the same design is also sold at another chain

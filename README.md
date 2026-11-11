@@ -1,6 +1,6 @@
 # 🍿 Popcorn Bucket Drops
 
-A dark-mode web page listing upcoming collectible popcorn buckets at AMC, Regal, Cinemark, and Galaxy Theatres. Buckets are grouped by **theater week (Thursday → Wednesday)** and each one shows a picture, the chain, the date it goes on sale, when the movie opens, the price, and links to the sources.
+A dark-mode web page listing upcoming collectible popcorn buckets at AMC, Regal, and Cinemark. Buckets are grouped by **theater week (Thursday → Wednesday)** and each one shows a picture, the chain, the date it goes on sale, when the movie opens, the price, and links to the sources.
 
 Every Monday a GitHub Action has Claude search the web for new and updated buckets, saves pictures, commits the data, and republishes the site.
 

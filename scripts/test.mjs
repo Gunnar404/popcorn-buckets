@@ -15,7 +15,7 @@ test("release week starts on Thursday", () => {
 test("chain names normalize", () => {
   assert.equal(normalizeChain("AMC Theatres"), "AMC");
   assert.equal(normalizeChain("regal cinemas"), "Regal");
-  assert.equal(normalizeChain("Galaxy Theaters"), "Galaxy Theatres");
+  assert.equal(normalizeChain("Galaxy Theatres"), null);
   assert.equal(normalizeChain("Alamo Drafthouse Cinema"), null);
   assert.equal(normalizeChain("Marcus"), null);
   assert.equal(normalizeChain(null), null);

@@ -1,7 +1,7 @@
 // Pure helpers shared by update.mjs and the tests. No network, no filesystem.
 
 // Only these chains are tracked; anything else is dropped.
-export const KNOWN_CHAINS = ["AMC", "Regal", "Cinemark", "Galaxy Theatres"];
+export const KNOWN_CHAINS = ["AMC", "Regal", "Cinemark"];
 
 export function slugify(s) {
   return String(s)
@@ -65,7 +65,6 @@ export function normalizeChain(chain) {
   if (/^amc\b/i.test(c)) return "AMC";
   if (/^regal\b/i.test(c)) return "Regal";
   if (/^cinemark\b/i.test(c)) return "Cinemark";
-  if (/^galaxy\b/i.test(c)) return "Galaxy Theatres";
   return null;
 }
 

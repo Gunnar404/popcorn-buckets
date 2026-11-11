@@ -2,12 +2,11 @@ const CHAIN_COLORS = {
   AMC: "#ff5a5f",
   Regal: "#ffcc4d",
   Cinemark: "#5aa9ff",
-  "Galaxy Theatres": "#c38bff",
 };
 const FALLBACK_COLORS = ["#94a3b8", "#fda4af", "#86efac", "#fcd34d", "#a5b4fc", "#67e8f9"];
 const RECENT_DAYS = 28;
 
-const state = { data: null, chain: "All", q: "" };
+const state = { data: null, chain: "All", q: "", showPast: localStorage.getItem("showPast") === "1" };
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -44,7 +43,7 @@ const fmt = (iso, opts = { weekday: "short", month: "short", day: "numeric" }) =
 function relWeeks(thu, thisThu) {
   const today = isoLocal(new Date());
   const days = Math.round((parseDate(thu) - parseDate(today)) / 86400000);
-  if (thu === thisThu) return "on sale now";
+  if (thu === thisThu) return days <= 0 ? "this week" : `starts in ${days} day${days === 1 ? "" : "s"}`;
   if (days === 1) return "starts tomorrow";
   if (days > 1 && days < 7) return `starts in ${days} days`;
   const weeks = Math.round((parseDate(thu) - parseDate(thisThu)) / (7 * 86400000));
@@ -121,6 +120,22 @@ function groupItems(items) {
   return groups;
 }
 
+function shortDate(m) {
+  if (m.availableDate) return fmt(m.availableDate, { month: "short", day: "numeric" });
+  return null;
+}
+
+function tile(m) {
+  const date = shortDate(m);
+  return el(
+    "div",
+    { class: "tile", style: `--chip:${chainColor(m.chain)}`, title: m.dateNote ?? "" },
+    el("span", { class: "tile-chain" }, m.chain),
+    el("span", { class: `tile-date${date ? "" : " tbc"}` }, date ?? "Date TBC"),
+    m.price && el("span", { class: "tile-price" }, m.price.replace(/\s*\(.*\)$/, "")),
+  );
+}
+
 function card(group) {
   const first = group[0];
   const withImg = group.find((m) => m.image || m.imageUrl) ?? first;
@@ -138,43 +153,26 @@ function card(group) {
   } else {
     pic.append(el("span", { class: "ph" }, "🍿"));
   }
-  pic.append(
-    el(
-      "div",
-      { class: "badges" },
-      group.map((m) => el("span", { class: "badge", style: `--chip:${chainColor(m.chain)}` }, m.chain)),
-    ),
-  );
 
-  const facts = el("dl", { class: "facts" });
-  // One line when every chain agrees, otherwise one line per chain.
-  const fact = (label, valueOf, keyOf = valueOf) => {
-    const rows = group.map((m) => [m.chain, valueOf(m), keyOf(m)]).filter(([, v]) => v);
-    if (!rows.length) return;
-    const distinct = new Set(rows.map(([, , k]) => JSON.stringify(k)));
-    const dd =
-      group.length === 1 || (distinct.size === 1 && rows.length === group.length)
-        ? rows[0][1]
-        : rows.map(([chain, v]) =>
-            el("div", { class: "per-chain" }, el("b", { style: `color:${chainColor(chain)}` }, chain), " ", v),
-          );
-    facts.append(el("dt", {}, label), el("dd", {}, dd));
-  };
-  fact(
-    "In theaters",
-    (m) =>
-      m.availableDate
-        ? [fmt(m.availableDate), m.dateNote ? el("span", { class: "note" }, ` · ${m.dateNote}`) : null]
-        : [el("span", { class: "tag" }, "not confirmed"), " ", m.dateNote ?? "Date TBA"],
-    (m) => [m.availableDate, m.dateNote],
-  );
+  // Everything secondary lives behind "Details".
+  const details = el("details", { class: "more" }, el("summary", {}, "Details"));
+  const add = (label, text) => text && details.append(el("p", {}, el("b", {}, label), " ", text));
   const movieDate = group.find((m) => m.movieReleaseDate)?.movieReleaseDate;
-  if (movieDate) facts.append(el("dt", {}, "Movie opens"), el("dd", {}, fmt(movieDate, { month: "short", day: "numeric", year: "numeric" })));
-  fact("Price", (m) => m.price);
-  fact("How", (m) => m.purchaseNotes);
-
+  add("Movie opens", movieDate && fmt(movieDate, { month: "short", day: "numeric", year: "numeric" }));
+  const desc = group.find((m) => m.description)?.description;
+  if (desc) details.append(el("p", {}, desc));
+  for (const m of group) {
+    const bits = [m.dateNote, m.price, m.purchaseNotes].filter(Boolean);
+    if (bits.length) details.append(el("p", {}, el("b", { style: `color:${chainColor(m.chain)}` }, m.chain), " ", bits.join(" · ")));
+  }
   const names = [...new Set(group.map((m) => m.name))];
+  add("Also called", names.length > 1 && names.slice(1).join(" · "));
   const allSources = [...new Set(group.flatMap((m) => m.sources ?? []))];
+  if (allSources.length)
+    details.append(
+      el("p", { class: "sources" }, allSources.slice(0, 5).map((u) => el("a", { href: u, target: "_blank", rel: "noopener" }, hostOf(u)))),
+    );
+
   return el(
     "article",
     { class: "card", id: first.id },
@@ -185,15 +183,8 @@ function card(group) {
       { class: "body" },
       el("h3", { class: "movie" }, first.movie),
       el("p", { class: "name" }, names[0]),
-      names.length > 1 && el("p", { class: "note" }, `Also listed as: ${names.slice(1).join(" · ")}`),
-      facts,
-      group.find((m) => m.description) && el("p", { class: "desc" }, group.find((m) => m.description).description),
-      allSources.length > 0 &&
-        el(
-          "div",
-          { class: "sources" },
-          allSources.slice(0, 5).map((s) => el("a", { href: s, target: "_blank", rel: "noopener" }, hostOf(s))),
-        ),
+      el("div", { class: "tiles" }, group.map(tile)),
+      details,
     ),
   );
 }
@@ -206,17 +197,13 @@ function openViewer(src, alt) {
   dlg.showModal();
 }
 
-function section(title, rel, items, { now = false, collapsed = false } = {}) {
-  const heading = el("h2", {}, title, rel && el("span", { class: "rel" }, rel), el("span", { class: "rel" }, `· ${items.length}`));
+function section(title, rel, items, { now = false, past = false } = {}) {
+  const heading = el("h2", {}, title, rel && el("span", { class: "rel" }, rel));
   const confirmed = (g) => (g.some((m) => m.availableDate) ? 1 : 0);
   const sorted = [...items].sort(
     (a, b) => confirmed(b) - confirmed(a) || a[0].movie.localeCompare(b[0].movie) || b.length - a.length,
   );
-  const grid = el("div", { class: "grid" }, sorted.map(card));
-  if (collapsed) {
-    return el("details", { class: "week" }, el("summary", {}, heading), grid);
-  }
-  return el("section", { class: `week${now ? " now" : ""}` }, heading, grid);
+  return el("section", { class: `week${now ? " now" : ""}${past ? " past" : ""}` }, heading, el("div", { class: "grid" }, sorted.map(card)));
 }
 
 function render() {
@@ -232,37 +219,34 @@ function render() {
       (!q || `${b.movie} ${b.name} ${b.chain} ${b.description ?? ""}`.toLowerCase().includes(q)),
   );
 
-  const byWeek = new Map();
+  // Upcoming = on-sale date (or, if unannounced, the movie's opening) is today or later.
+  const upcomingWeeks = new Map();
+  const pastWeeks = new Map();
   const tba = [];
   for (const g of groupItems(items)) {
-    // Unconfirmed buckets almost always drop with the movie's opening week,
-    // so file them there (flagged "not confirmed" on the card).
     const dates = g.map((m) => m.availableDate ?? m.movieReleaseDate).filter(Boolean).sort();
-    const when = dates[0];
-    const b = g;
-    if (!when) {
-      tba.push(b);
+    if (!dates.length) {
+      tba.push(g);
       continue;
     }
+    const isUpcoming = dates[dates.length - 1] >= today; // still upcoming at at least one chain
+    const when = isUpcoming ? dates.find((d) => d >= today) : dates[dates.length - 1];
+    const map = isUpcoming ? upcomingWeeks : pastWeeks;
     const thu = weekThursday(when);
-    if (!byWeek.has(thu)) byWeek.set(thu, []);
-    byWeek.get(thu).push(b);
+    if (!map.has(thu)) map.set(thu, []);
+    map.get(thu).push(g);
   }
-  const weeks = [...byWeek.keys()].sort();
-  const upcoming = weeks.filter((w) => w >= thisThu);
-  const recent = weeks.filter((w) => w < thisThu && w >= addDays(thisThu, -RECENT_DAYS)).reverse();
-  const older = weeks.filter((w) => w < addDays(thisThu, -RECENT_DAYS)).reverse();
 
-  for (const w of upcoming) {
-    app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), byWeek.get(w), { now: w === thisThu }));
+  for (const w of [...upcomingWeeks.keys()].sort()) {
+    app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), upcomingWeeks.get(w), { now: w === thisThu }));
   }
-  if (tba.length) app.append(section("Announced — date TBA", null, tba));
-  for (const w of recent) {
-    app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), byWeek.get(w), { collapsed: true }));
-  }
-  if (older.length) {
-    const all = older.flatMap((w) => byWeek.get(w));
-    app.append(section("Archive", null, all, { collapsed: true }));
+  if (tba.length) app.append(section("Date not announced", null, tba));
+  const pastCount = [...pastWeeks.values()].reduce((n, g) => n + g.length, 0);
+  $("#past-count").textContent = pastCount ? `(${pastCount})` : "";
+  if (state.showPast && pastWeeks.size) {
+    app.append(el("h2", { class: "divider" }, "Previously released"));
+    for (const w of [...pastWeeks.keys()].sort().reverse())
+      app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), pastWeeks.get(w), { past: true }));
   }
   if (!app.children.length) app.append(el("p", { class: "empty" }, "Nothing matches yet."));
 }
@@ -299,6 +283,13 @@ function renderChains() {
 async function init() {
   $("#viewer button").addEventListener("click", () => $("#viewer").close());
   $("#viewer").addEventListener("click", (e) => e.target === e.currentTarget && $("#viewer").close());
+  const past = $("#past");
+  past.checked = state.showPast;
+  past.addEventListener("change", () => {
+    state.showPast = past.checked;
+    localStorage.setItem("showPast", past.checked ? "1" : "0");
+    render();
+  });
   $("#q").addEventListener("input", (e) => {
     state.q = e.target.value;
     render();
