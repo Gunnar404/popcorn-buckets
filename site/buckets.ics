@@ -7,7 +7,7 @@ X-WR-CALNAME:Popcorn Bucket Drops
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-godzilla-popcorn-container-full-body@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Godzilla Popcorn Container (fu
@@ -19,8 +19,6 @@ DESCRIPTION:Full-body Godzilla figure\, 85 oz.\nPrice: $98.99 online (sold
  lla-minus-zero-popcorn-bucket/\nhttps://www.fantasylandnews.com/2026/10/0
  6/godzilla-minus-zero-popcorn-buckets-are-a-massive-19-5-inches-tall-and-
  cost-90/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-godzilla-minus-zero
- -godzilla-popcorn-container-full-body
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -30,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Swimming Godzilla bucket (Coll
@@ -44,8 +42,6 @@ DESCRIPTION:Black 130-oz bucket with a lid of Godzilla rising out of blue
  s-are-a-massive-19-5-inches-tall-and-cost-90/\nhttps://store.regmovies.co
  m/products/godzilla-minus-zero-popcorn-bucket-godzilla-emerging-from-wate
  r-lid
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-godzilla-minus-zero
- -swimming-godzilla-bucket-collectible-combo
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -55,15 +51,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-i-play-rocky-boxing-glove-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: I Play Rocky — Boxing glove bucket
 DESCRIPTION:Red boxing glove with "I Play Rocky" on the white cuff.\nComes
   with popcorn\, in theaters\, while supplies last\nhttps://hauntedattract
  ionnetwork.com/rocky-popcorn-bucket/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-i-play-rocky-boxing-g
- love-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -73,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: I Play Rocky — I Play Rocky Boxing Glove Popcorn Buc
@@ -81,8 +75,6 @@ SUMMARY:🍿 Regal: I Play Rocky — I Play Rocky Boxing Glove Popcorn Buc
 DESCRIPTION:Red boxing glove.\nSelect theaters\, while supplies last\; Roc
  ky Collectible Combo also sold\nhttps://hauntedattractionnetwork.com/rock
  y-popcorn-bucket/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-i-play-rocky-i-play
- -rocky-boxing-glove-popcorn-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -92,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — The Cat's Hat Popcorn Bucket
@@ -101,8 +93,6 @@ DESCRIPTION:Tall striped hat.\nSelect theaters\, comes with a large popcor
  opens 2026-11-06\nhttps://hauntedattractionnetwork.com/cat-in-the-hat-pop
  corn-bucket/\nhttps://pixeltwelve.com/articles/the-cat-in-the-hat-fishbow
  l-popcorn-bucket-regal
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-the-cat-in-the-hat-
- the-cat-s-hat-popcorn-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -112,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Fish Bowl Popcorn Bucket
@@ -121,8 +111,6 @@ DESCRIPTION:Clear round bowl with an orange Fish on the rim.\nPrice: $26.9
  opens 2026-11-06\nhttps://hauntedattractionnetwork.com/cat-in-the-hat-pop
  corn-bucket/\nhttps://pixeltwelve.com/articles/the-cat-in-the-hat-fishbow
  l-popcorn-bucket-regal
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-the-cat-in-the-hat-
- fish-bowl-popcorn-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -132,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Collectible Combo (popcorn tin 
@@ -142,8 +130,6 @@ DESCRIPTION:Red popcorn tub/tin plus a cup with a Cat figure on the lid (o
  \nhttps://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/\nht
  tps://www.fantasylandnews.com/2026/10/19/the-cat-in-the-hat-popcorn-bucke
  ts-2026-fishbowl-cats-hat-and-everything-else/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-the-cat-in-the-hat-
- collectible-combo-popcorn-tin-and-topper-cup
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -152,30 +138,8 @@ DESCRIPTION:Regal The Cat in the Hat bucket drops tomorrow
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:alamo-drafthouse-godzilla-minus-zero-godzilla-minus-zero-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:🍿 Alamo Drafthouse: Godzilla Minus Zero — Godzilla Minus Zero
-  Popcorn Bucket
-DESCRIPTION:Full-body Godzilla\, 85 oz.\nPrice: $90 AlamoMart online pre-o
- rder\; in-theater price not announced\nLobby at select locations\, while 
- supplies last\; online pre-order est. ship Nov 6\nMovie opens 2026-11-06\
- nhttps://attractionsmagazine.com/godzilla-minus-zero-popcorn-bucket/\nhtt
- ps://www.fantasylandnews.com/2026/10/06/godzilla-minus-zero-popcorn-bucke
- ts-are-a-massive-19-5-inches-tall-and-cost-90/
-URL:https://Gunnar404.github.io/popcorn-buckets/#alamo-drafthouse-godzilla
- -minus-zero-godzilla-minus-zero-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Alamo Drafthouse Godzilla Minus Zero bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cinemark-rocky-50th-anniversary-rocky-popcorn-bucket-staircase@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:🍿 Cinemark: Rocky 50th Anniversary — Rocky Popcorn Bucket –
@@ -187,8 +151,6 @@ DESCRIPTION:Philadelphia Museum of Art steps with a Rocky figure\, arms ra
  cky-popcorn-bucket/\nhttps://shop.cinemark.com/products/rocky-popcorn-buc
  ket-staircase\nhttps://www.fantasylandnews.com/movie-theater-popcorn-buck
  ets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#cinemark-rocky-50th-anniv
- ersary-rocky-popcorn-bucket-staircase
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -197,27 +159,8 @@ DESCRIPTION:Cinemark Rocky 50th Anniversary bucket drops tomorrow
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:other-rocky-50th-anniversary-130-oz-round-tin@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:🍿 Other: Rocky 50th Anniversary — 130-oz round tin
-DESCRIPTION:Black tin with a ring of stars and giant ROCKY letters showing
-  shots of Rocky on the steps.\nParticipating theaters\nFathom\, participa
- ting theaters\; chain unspecified\nMovie opens 2026-11-07\nhttps://www.fa
- ntasylandnews.com/movie-theater-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#other-rocky-50th-annivers
- ary-130-oz-round-tin
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Other Rocky 50th Anniversary bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Book Tin
@@ -229,8 +172,6 @@ DESCRIPTION:Regal-exclusive pink book-shaped tin with the title on the cov
  egal-hunger-games-reaping-book-tin-movie-theater-collection/\nhttps://www
  .fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popco
  rn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-the-hunger-games-su
- nrise-on-the-reaping-book-shaped-collectible-tin
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -241,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Collectib
@@ -252,8 +193,6 @@ DESCRIPTION:Popcorn bucket and lidded cup printed with the bird-and-snake
  onsmagazine.com/regal-hunger-games-reaping-book-tin-movie-theater-collect
  ion/\nhttps://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-
  the-reaping-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-the-hunger-games-su
- nrise-on-the-reaping-collectible-combo-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -264,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinemark-the-hunger-games-sunrise-on-the-reaping-130-oz-collectible-tin@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:🍿 Cinemark: The Hunger Games: Sunrise on the Reaping — 130 oz
@@ -277,8 +216,6 @@ DESCRIPTION:White 130-oz tin with the bird-and-snake emblem.\nPrice: $40 X
  m/movies/hunger-games-fans-can-get-a-collectible-popcorn-tin-exclusive-pi
  n-and-movie-ticket-for-40-at-cinemark\nhttps://www.cinemark.com/movies/th
  e-hunger-games-sunrise-on-the-reaping-super-ticket
-URL:https://Gunnar404.github.io/popcorn-buckets/#cinemark-the-hunger-games
- -sunrise-on-the-reaping-130-oz-collectible-tin
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -288,47 +225,8 @@ DESCRIPTION:Cinemark The Hunger Games: Sunrise on the Reaping bucket drops
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:harkins-the-hunger-games-sunrise-on-the-reaping-popcorn-bucket-tin-with-keychain@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:🍿 Harkins: The Hunger Games: Sunrise on the Reaping — Popcorn
-  Bucket Tin with Keychain
-DESCRIPTION:Themed tin that comes with a keychain.\nWhile supplies last\nM
- ovie opens 2026-11-20\nhttps://www.fantasylandnews.com/2026/10/28/hunger-
- games-sunrise-on-the-reaping-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#harkins-the-hunger-games-
- sunrise-on-the-reaping-popcorn-bucket-tin-with-keychain
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Harkins The Hunger Games: Sunrise on the Reaping bucket drops 
- tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:showcase-the-hunger-games-sunrise-on-the-reaping-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:🍿 Showcase: The Hunger Games: Sunrise on the Reaping — Popcor
- n bucket
-DESCRIPTION:Movie opens 2026-11-20\nhttps://www.fantasylandnews.com/2026/1
- 0/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#showcase-the-hunger-games
- -sunrise-on-the-reaping-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Showcase The Hunger Games: Sunrise on the Reaping bucket drops
-  tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:regal-hexed-hexed-collectible-popcorn-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Hexed Collectible Popcorn Bucket (cauldron)
@@ -338,8 +236,6 @@ DESCRIPTION:Black three-legged witch's cauldron with ring handles and the
  tionnetwork.com/hexed-popcorn-bucket/\nhttps://www.regmovies.com/promotio
  ns/hexed\nhttps://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldr
  on-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-hexed-hexed-collect
- ible-popcorn-bucket-cauldron
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -349,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-hexed-collectible-combo-character-tub@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Collectible Combo (character tub)
@@ -359,8 +255,6 @@ DESCRIPTION:Popcorn tub decorated with characters\, plus a cup.\nPopcorn a
  -bucket/\nhttps://www.regmovies.com/promotions/hexed\nhttps://www.fantasy
  landnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-t
  o-regal-amc-and-cinemark/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-hexed-collectible-c
- ombo-character-tub
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -370,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-hexed-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🍿 AMC: Hexed — "Bucket" cauldron
@@ -381,7 +275,6 @@ DESCRIPTION:Black three-legged cauldron with the Hexed logo.\nComes with p
  over-photo-op-popcorn-bucket/\nhttps://www.fantasylandnews.com/2026/10/20
  /disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemar
  k/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-hexed-bucket-cauldron
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -391,7 +284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-avengers-doomsday-collectible-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Doctor Doom Collectible
@@ -402,8 +295,6 @@ DESCRIPTION:Bust of Doom with arms crossed and glowing green eyes.\nComes
  m/avengers-doomsday-popcorn-buckets-sippers-revealed/\nhttps://wdwnt.com/
  2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectible
  s/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-avengers-doomsday-ave
- ngers-doomsday-collectible-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -413,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-sentinel-head@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Sentinel Head
@@ -423,8 +314,6 @@ DESCRIPTION:Head of a Sentinel robot.\nAMC exclusive\, comes with popcorn\
  ine.com/avengers-doomsday-popcorn-buckets-sippers-revealed/\nhttps://wdwn
  t.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-colle
  ctibles/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-avengers-doomsday-sen
- tinel-head
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -434,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-team-icon-collectible@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Team Icon Collectible
@@ -444,8 +333,6 @@ DESCRIPTION:Glowing light-up hexagon in three variants: Avengers "A\," X-M
  corn-buckets/\nhttps://attractionsmagazine.com/avengers-doomsday-popcorn-
  buckets-sippers-revealed/\nhttps://wdwnt.com/2026/10/amc-theatres-reveals
  -avengers-doomsday-popcorn-bucket-collectibles/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-avengers-doomsday-tea
- m-icon-collectible
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -454,62 +341,8 @@ DESCRIPTION:AMC Avengers: Doomsday bucket drops tomorrow
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:harkins-avengers-doomsday-doctor-doom-statue-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:🍿 Harkins: Avengers: Doomsday — Doctor Doom Statue Popcorn Bu
- cket
-DESCRIPTION:starting one hour before first showtime\nMovie opens 2026-12-1
- 8\nhttps://www.fantasylandnews.com/movie-theater-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#harkins-avengers-doomsday
- -doctor-doom-statue-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Harkins Avengers: Doomsday bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:harkins-avengers-doomsday-throne-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:🍿 Harkins: Avengers: Doomsday — Throne Popcorn Bucket
-DESCRIPTION:Green-and-silver bucket with a tiny Doom on his throne in fron
- t.\nMovie opens 2026-12-18\nhttps://www.fantasylandnews.com/movie-theater
- -popcorn-buckets/\nhttps://www.fantasylandnews.com/2026/10/29/avengers-do
- omsday-popcorn-buckets-regal-amc-cinemark/
-URL:https://Gunnar404.github.io/popcorn-buckets/#harkins-avengers-doomsday
- -throne-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Harkins Avengers: Doomsday bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:harkins-avengers-doomsday-chrome-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:🍿 Harkins: Avengers: Doomsday — Chrome Popcorn Bucket
-DESCRIPTION:Movie opens 2026-12-18\nhttps://www.fantasylandnews.com/movie-
- theater-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#harkins-avengers-doomsday
- -chrome-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Harkins Avengers: Doomsday bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:regal-avengers-doomsday-doom-s-throne-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doom's Throne Popcorn Container
@@ -519,8 +352,6 @@ DESCRIPTION:Doom seated on a throne atop a tall glowing green stepped hexa
  rmed\nMovie opens 2026-12-18\nhttps://www.comicbasics.com/?p=200163\nhttp
  s://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/\
  nhttps://www.regmovies.com/promotions/avengers
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-avengers-doomsday-d
- oom-s-throne-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -530,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-doctor-doom-statue@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doctor Doom Statue
@@ -539,8 +370,6 @@ DESCRIPTION:Doom statue with arms crossed.\nComes with a large popcorn\nMo
  doomsday-popcorn-buckets/\nhttps://www.regmovies.com/promotions/avengers\
  nhttps://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-r
  evealed-at-amc-regal-and-cinemark/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-avengers-doomsday-d
- octor-doom-statue
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -550,15 +379,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Collectible Combo and Premium C
  ollectible Combo
 DESCRIPTION:Movie opens 2026-12-18\nhttps://www.fantasylandnews.com/movie-
  theater-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#regal-avengers-doomsday-c
- ollectible-combo-and-premium-collectible-combo
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -568,7 +395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Double sandworm bucket
@@ -579,8 +406,6 @@ DESCRIPTION:Two sandworm heads rising from the sand on the lid\, over a tu
  rn-bucketsk-collectibles/\nhttps://hollywoodlife.com/2026/10/29/dune-3-po
  pcorn-bucket-cost/\nhttps://hauntedattractionnetwork.com/dune-avengers-do
  omsday-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-dune-part-three-sandw
- orm-popcorn-bucket
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -590,7 +415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-thumper-container@popcorn-buckets
-DTSTAMP:20261111T223911Z
+DTSTAMP:20261111T225253Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Sandworm "thumper" container
@@ -601,52 +426,11 @@ DESCRIPTION:Sandworm rising from the lid\, with a thumper on the side that
  thumper-cup/\nhttps://nerdist.com/article/dune-part-three-popcorn-buckets
  -sandworm-holes-thumping/\nhttps://hauntedattractionnetwork.com/dune-aven
  gers-doomsday-popcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#amc-dune-part-three-sandw
- orm-thumper-container
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT15H
 DESCRIPTION:AMC Dune: Part Three bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:harkins-dune-part-three-sandworm-mural-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:🍿 Harkins: Dune: Part Three — Sandworm Mural Popcorn Bucket
-DESCRIPTION:Same copper mural bucket as Cinemark's.\nstarting one hour bef
- ore first showtime\nMovie opens 2026-12-18\nhttps://www.fantasylandnews.c
- om/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-do
- uble-sandworm-and-thumper-cup/
-URL:https://Gunnar404.github.io/popcorn-buckets/#harkins-dune-part-three-s
- andworm-mural-popcorn-bucket
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Harkins Dune: Part Three bucket drops tomorrow
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:showcase-avengers-doomsday-doctor-doom-bust-bucket-tin-bucket-and-printed-paper-@popcorn-buckets
-DTSTAMP:20261111T223911Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:🍿 Showcase: Avengers: Doomsday — Doctor Doom bust bucket\, ti
- n bucket and printed paper bucket
-DESCRIPTION:Three items: Doctor Doom bust bucket\, tin bucket and printed 
- paper bucket.\nParticipating locations\, limited quantities\nMovie opens 
- 2026-12-18\nhttps://hauntedattractionnetwork.com/dune-avengers-doomsday-p
- opcorn-buckets/
-URL:https://Gunnar404.github.io/popcorn-buckets/#showcase-avengers-doomsda
- y-doctor-doom-bust-bucket-tin-bucket-and-printed-paper-
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT15H
-DESCRIPTION:Showcase Avengers: Doomsday bucket drops tomorrow
 END:VALARM
 END:VEVENT
 END:VCALENDAR

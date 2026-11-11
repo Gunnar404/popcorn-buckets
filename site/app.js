@@ -2,13 +2,7 @@ const CHAIN_COLORS = {
   AMC: "#ff5a5f",
   Regal: "#ffcc4d",
   Cinemark: "#5aa9ff",
-  Marcus: "#c38bff",
-  Harkins: "#ff9f43",
-  "Alamo Drafthouse": "#6ee7b7",
-  Showcase: "#f472b6",
-  "Cinépolis": "#38bdf8",
-  "B&B Theatres": "#a3e635",
-  Cineplex: "#fbbf24",
+  "Galaxy Theatres": "#c38bff",
 };
 const FALLBACK_COLORS = ["#94a3b8", "#fda4af", "#86efac", "#fcd34d", "#a5b4fc", "#67e8f9"];
 const RECENT_DAYS = 28;

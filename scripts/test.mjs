@@ -15,8 +15,16 @@ test("release week starts on Thursday", () => {
 test("chain names normalize", () => {
   assert.equal(normalizeChain("AMC Theatres"), "AMC");
   assert.equal(normalizeChain("regal cinemas"), "Regal");
-  assert.equal(normalizeChain("Alamo Drafthouse Cinema"), "Alamo Drafthouse");
-  assert.equal(normalizeChain(null), "Other");
+  assert.equal(normalizeChain("Galaxy Theaters"), "Galaxy Theatres");
+  assert.equal(normalizeChain("Alamo Drafthouse Cinema"), null);
+  assert.equal(normalizeChain("Marcus"), null);
+  assert.equal(normalizeChain(null), null);
+});
+
+test("untracked chains are dropped, including previously stored ones", () => {
+  const stored = [{ id: "marcus-x", movie: "X", name: "Y", chain: "Marcus", sources: [] }];
+  const r = mergeBuckets(stored, [{ movie: "Z", name: "Tin", chain: "Harkins" }, { movie: "Z", name: "Tin", chain: "Regal" }], "t");
+  assert.deepEqual(r.buckets.map((b) => b.chain), ["Regal"]);
 });
 
 const base = { movie: "Dune: Part Three", name: "Sandworm bucket", chain: "AMC", sources: ["https://a.example/1"] };

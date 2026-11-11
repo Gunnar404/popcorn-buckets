@@ -1,21 +1,7 @@
 // Pure helpers shared by update.mjs and the tests. No network, no filesystem.
 
-export const KNOWN_CHAINS = [
-  "AMC",
-  "Regal",
-  "Cinemark",
-  "Marcus",
-  "Harkins",
-  "Alamo Drafthouse",
-  "Showcase",
-  "Cinépolis",
-  "B&B Theatres",
-  "Studio Movie Grill",
-  "Landmark",
-  "Emagine",
-  "Cineplex",
-  "Other",
-];
+// Only these chains are tracked; anything else is dropped.
+export const KNOWN_CHAINS = ["AMC", "Regal", "Cinemark", "Galaxy Theatres"];
 
 export function slugify(s) {
   return String(s)
@@ -72,18 +58,15 @@ function cleanStr(s) {
   return t.length ? t : null;
 }
 
+/** Map a chain name to one of KNOWN_CHAINS, or null if it isn't a tracked chain. */
 export function normalizeChain(chain) {
-  const c = cleanStr(chain) ?? "Other";
-  const hit = KNOWN_CHAINS.find((k) => k.toLowerCase() === c.toLowerCase());
-  if (hit) return hit;
-  if (/^amc/i.test(c)) return "AMC";
-  if (/^regal/i.test(c)) return "Regal";
-  if (/^cinemark/i.test(c)) return "Cinemark";
-  if (/alamo/i.test(c)) return "Alamo Drafthouse";
-  if (/marcus/i.test(c)) return "Marcus";
-  if (/harkins/i.test(c)) return "Harkins";
-  if (/cin[eé]polis/i.test(c)) return "Cinépolis";
-  return c;
+  const c = cleanStr(chain);
+  if (!c) return null;
+  if (/^amc\b/i.test(c)) return "AMC";
+  if (/^regal\b/i.test(c)) return "Regal";
+  if (/^cinemark\b/i.test(c)) return "Cinemark";
+  if (/^galaxy\b/i.test(c)) return "Galaxy Theatres";
+  return null;
 }
 
 /** Normalize one bucket as returned by the model into the stored shape. */
@@ -101,7 +84,7 @@ export function normalizeIncoming(raw) {
     imageUrl: cleanUrl(raw.imageUrl),
     sources: [...new Set((raw.sources ?? []).map(cleanUrl).filter(Boolean))],
   };
-  if (!b.movie || !b.name) return null;
+  if (!b.movie || !b.name || !b.chain) return null;
   return b;
 }
 
@@ -152,7 +135,8 @@ export function mergeBuckets(existing, incoming, nowISO) {
     touched.add(id);
   }
 
-  const buckets = [...byId.values()].sort(compareBuckets);
+  // Drop anything stored earlier for chains that are no longer tracked.
+  const buckets = [...byId.values()].filter((b) => KNOWN_CHAINS.includes(b.chain)).sort(compareBuckets);
   return { buckets, added, updated };
 }
 

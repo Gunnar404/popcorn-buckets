@@ -114,11 +114,11 @@ function researchPrompt(today, known) {
         .join("\n")
     : "(none yet)";
 
-  return `Today is ${today}. I track collectible popcorn buckets (and similar novelty popcorn containers such as tins, sculpted buckets, vehicle-shaped holders) sold at US movie theater chains: ${KNOWN_CHAINS.filter((c) => c !== "Other").join(", ")}.
+  return `Today is ${today}. I track collectible popcorn buckets (and similar novelty popcorn containers such as tins, sculpted buckets, vehicle-shaped holders) sold at US movie theater chains: ${KNOWN_CHAINS.join(", ")}. Ignore every other chain.
 
 Find every collectible popcorn bucket that goes on sale (or went on sale) between ${from} and ${to}, plus any already announced for later where the release date is known. New buckets usually go on sale on a Thursday, often with the movie's preview showings.
 
-Search widely: chain announcements and social posts (AMC, Regal, Cinemark, Marcus, Alamo, ...), and sites that cover this beat such as attractionsmagazine.com, hauntedattractionnetwork.com, comicbasics.com, mickeyvisit.com, allears.net, sporked.com, hollywoodlife.com, and r/popcornbuckets. Fetch the actual articles rather than relying on snippets. Ignore spam/SEO pages that only repeat a title.
+Search widely: chain announcements and social posts (AMC, Regal, Cinemark, Galaxy Theatres), and sites that cover this beat such as attractionsmagazine.com, hauntedattractionnetwork.com, comicbasics.com, mickeyvisit.com, allears.net, sporked.com, hollywoodlife.com, and r/popcornbuckets. Fetch the actual articles rather than relying on snippets. Ignore spam/SEO pages that only repeat a title.
 
 For each distinct item (one entry per chain per design; if three chains sell different buckets for the same movie, that is three entries) record:
 - movie, chain, short name of the item
@@ -193,7 +193,7 @@ async function extract(client, today, known, report) {
     messages: [
       {
         role: "user",
-        content: `Today is ${today}. Convert this research report on theater popcorn buckets into structured data. Only include items the report actually describes. Use null for anything not stated; never guess. Dates as YYYY-MM-DD. If an item matches one of these known ids, set existingId to it:\n${knownIds || "(none)"}\n\n<report>\n${report}\n</report>`,
+        content: `Today is ${today}. Convert this research report on theater popcorn buckets into structured data. Only include items the report actually describes, and only for these chains: ${KNOWN_CHAINS.join(", ")}. Use null for anything not stated; never guess. Dates as YYYY-MM-DD. If an item matches one of these known ids, set existingId to it:\n${knownIds || "(none)"}\n\n<report>\n${report}\n</report>`,
       },
     ],
   });
@@ -273,6 +273,20 @@ async function fillImages(buckets) {
   return got;
 }
 
+async function pruneImages(buckets) {
+  const keep = new Set(buckets.map((b) => b.image).filter(Boolean).map((p) => path.basename(p)));
+  let files = [];
+  try {
+    files = await fs.readdir(IMAGE_DIR);
+  } catch {
+    return;
+  }
+  for (const f of files) {
+    if (f.startsWith(".") || keep.has(f)) continue;
+    await fs.unlink(path.join(IMAGE_DIR, f));
+  }
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -305,6 +319,9 @@ async function main() {
     console.log(`Found ${found.length} items`);
     ({ buckets, added, updated } = mergeBuckets(buckets, found, nowISO));
   }
+
+  buckets = buckets.filter((b) => KNOWN_CHAINS.includes(b.chain));
+  await pruneImages(buckets);
 
   console.log("Fetching images ...");
   const images = await fillImages(buckets);
