@@ -40,15 +40,27 @@ function weekThursday(iso) {
 const fmt = (iso, opts = { weekday: "short", month: "short", day: "numeric" }) =>
   parseDate(iso).toLocaleDateString(undefined, opts);
 
-function relWeeks(thu, thisThu) {
+// Relative label from the first actual drop date in the section.
+function relLabel(firstDate) {
   const today = isoLocal(new Date());
-  const days = Math.round((parseDate(thu) - parseDate(today)) / 86400000);
-  if (thu === thisThu) return days <= 0 ? "this week" : `starts in ${days} day${days === 1 ? "" : "s"}`;
-  if (days === 1) return "starts tomorrow";
-  if (days > 1 && days < 7) return `starts in ${days} days`;
-  const weeks = Math.round((parseDate(thu) - parseDate(thisThu)) / (7 * 86400000));
-  if (weeks === -1) return "last week";
-  return weeks > 0 ? `in ${weeks} weeks` : `${-weeks} weeks ago`;
+  const days = Math.round((parseDate(firstDate) - parseDate(today)) / 86400000);
+  if (days === 0) return "first drop today";
+  if (days === 1) return "first drop tomorrow";
+  if (days > 1 && days < 14) return `first drop in ${days} days`;
+  if (days >= 14) return `in ${Math.round(days / 7)} weeks`;
+  if (days === -1) return "yesterday";
+  if (days > -14) return `${-days} days ago`;
+  return `${Math.round(-days / 7)} weeks ago`;
+}
+
+function firstDate(groups, upcoming) {
+  const today = isoLocal(new Date());
+  const ds = groups
+    .flat()
+    .map((m) => m.availableDate ?? m.movieReleaseDate)
+    .filter((d) => d && (!upcoming || d >= today))
+    .sort();
+  return upcoming ? ds[0] : ds[ds.length - 1];
 }
 
 function el(tag, attrs = {}, ...children) {
@@ -230,7 +242,11 @@ function render() {
       continue;
     }
     const isUpcoming = dates[dates.length - 1] >= today; // still upcoming at at least one chain
-    const when = isUpcoming ? dates.find((d) => d >= today) : dates[dates.length - 1];
+    let when = isUpcoming ? dates.find((d) => d >= today) : dates[dates.length - 1];
+    // Buckets that drop within a week of the movie's opening go in the opening week,
+    // so all of a movie's buckets stay together (e.g. a Wednesday early drop before a Friday opening).
+    const opening = g.find((m) => m.movieReleaseDate)?.movieReleaseDate;
+    if (opening && Math.abs(parseDate(when) - parseDate(opening)) <= 7 * 86400000) when = opening;
     const map = isUpcoming ? upcomingWeeks : pastWeeks;
     const thu = weekThursday(when);
     if (!map.has(thu)) map.set(thu, []);
@@ -238,7 +254,7 @@ function render() {
   }
 
   for (const w of [...upcomingWeeks.keys()].sort()) {
-    app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), upcomingWeeks.get(w), { now: w === thisThu }));
+    app.append(section(`Week of ${fmt(w)}`, relLabel(firstDate(upcomingWeeks.get(w), true)), upcomingWeeks.get(w), { now: w === thisThu }));
   }
   if (tba.length) app.append(section("Date not announced", null, tba));
   const pastCount = [...pastWeeks.values()].reduce((n, g) => n + g.length, 0);
@@ -246,7 +262,7 @@ function render() {
   if (state.showPast && pastWeeks.size) {
     app.append(el("h2", { class: "divider" }, "Previously released"));
     for (const w of [...pastWeeks.keys()].sort().reverse())
-      app.append(section(`Week of ${fmt(w)}`, relWeeks(w, thisThu), pastWeeks.get(w), { past: true }));
+      app.append(section(`Week of ${fmt(w)}`, relLabel(firstDate(pastWeeks.get(w), false)), pastWeeks.get(w), { past: true }));
   }
   if (!app.children.length) app.append(el("p", { class: "empty" }, "Nothing matches yet."));
 }
