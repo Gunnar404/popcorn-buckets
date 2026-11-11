@@ -1,0 +1,139 @@
+{
+  "updatedAt": null,
+  "buckets": [
+    {
+      "id": "amc-avengers-doomsday-avengers-doomsday-collectible-bucket",
+      "movie": "Avengers: Doomsday",
+      "name": "Avengers: Doomsday collectible bucket",
+      "chain": "AMC",
+      "availableDate": "2026-12-17",
+      "dateNote": "Opening-night previews",
+      "movieReleaseDate": "2026-12-18",
+      "price": null,
+      "purchaseNotes": "In theaters only, while supplies last",
+      "description": "AMC's Avengers: Doomsday concession collectibles.",
+      "imageUrl": null,
+      "sources": [
+        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "amc-dune-part-three-sandworm-popcorn-bucket",
+      "movie": "Dune: Part Three",
+      "name": "Sandworm popcorn bucket",
+      "chain": "AMC",
+      "availableDate": "2026-12-17",
+      "dateNote": "Opening-night previews",
+      "movieReleaseDate": "2026-12-18",
+      "price": null,
+      "purchaseNotes": "Includes theater exclusives; in theaters while supplies last",
+      "description": "The sandworm bucket returns with a twist for the final Dune film.",
+      "imageUrl": null,
+      "sources": [
+        "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/",
+        "https://hollywoodlife.com/2026/10/29/dune-3-popcorn-bucket-cost/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "regal-avengers-doomsday-doom-s-throne-bucket",
+      "movie": "Avengers: Doomsday",
+      "name": "Doom's Throne bucket",
+      "chain": "Regal",
+      "availableDate": null,
+      "dateNote": "Expected with the Dec 18 opening; date not confirmed",
+      "movieReleaseDate": "2026-12-18",
+      "price": null,
+      "purchaseNotes": "Paired with a Sentinel cup",
+      "description": "Doctor Doom's throne as a popcorn bucket.",
+      "imageUrl": null,
+      "sources": [
+        "https://www.comicbasics.com/?p=200163"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "cinemark-dune-part-three-copper-sandworm-bucket",
+      "movie": "Dune: Part Three",
+      "name": "Copper Sandworm bucket",
+      "chain": "Cinemark",
+      "availableDate": null,
+      "dateNote": "\"Coming soon\" — no date announced",
+      "movieReleaseDate": "2026-12-18",
+      "price": null,
+      "purchaseNotes": null,
+      "description": "Copper-finish sandworm popcorn bucket.",
+      "imageUrl": null,
+      "sources": [
+        "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "regal-dune-part-three-spacing-guild-navigator-bucket",
+      "movie": "Dune: Part Three",
+      "name": "Spacing Guild Navigator bucket",
+      "chain": "Regal",
+      "availableDate": null,
+      "dateNote": "December — exact date and price not announced",
+      "movieReleaseDate": "2026-12-18",
+      "price": null,
+      "purchaseNotes": "Regal exclusive",
+      "description": "Sculpted Spacing Guild Navigator popcorn bucket.",
+      "imageUrl": null,
+      "sources": [
+        "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "cinemark-the-hunger-games-sunrise-on-the-reaping-130-oz-collectible-tin",
+      "movie": "The Hunger Games: Sunrise on the Reaping",
+      "name": "130 oz collectible tin",
+      "chain": "Cinemark",
+      "availableDate": null,
+      "dateNote": "Movie opens Nov 20 — buckets usually go on sale with Thursday previews",
+      "movieReleaseDate": "2026-11-20",
+      "price": null,
+      "purchaseNotes": null,
+      "description": "130-ounce Hunger Games popcorn tin.",
+      "imageUrl": null,
+      "sources": [
+        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    },
+    {
+      "id": "regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin",
+      "movie": "The Hunger Games: Sunrise on the Reaping",
+      "name": "Book-shaped collectible tin",
+      "chain": "Regal",
+      "availableDate": null,
+      "dateNote": "Movie opens Nov 20 — buckets usually go on sale with Thursday previews",
+      "movieReleaseDate": "2026-11-20",
+      "price": null,
+      "purchaseNotes": "Sold with a large popcorn",
+      "description": "Collectible tin shaped like a book.",
+      "imageUrl": null,
+      "sources": [
+        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/"
+      ],
+      "image": null,
+      "firstSeen": "2026-11-11T21:23:20.282Z",
+      "lastSeen": "2026-11-11T21:23:20.282Z"
+    }
+  ]
+}

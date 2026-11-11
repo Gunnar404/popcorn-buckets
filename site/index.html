@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0d0f14" />
+    <title>Popcorn Bucket Drops</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍿</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="title">
+        <h1>🍿 Popcorn Bucket Drops</h1>
+        <p class="meta" id="meta">Loading…</p>
+      </div>
+      <div class="actions">
+        <a class="btn" id="cal" href="buckets.ics" title="Subscribe in Apple/Google Calendar to get reminders">📅 Calendar feed</a>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="chips" id="chains" role="group" aria-label="Filter by theater chain"></div>
+      <input id="q" type="search" placeholder="Search movie or bucket…" autocomplete="off" />
+    </section>
+
+    <main id="app"></main>
+
+    <footer>
+      Updated automatically every Monday. Dates and prices come from public announcements and can change —
+      check your theater's app before you go. Weeks run Thursday → Wednesday, matching theater release weeks.
+    </footer>
+
+    <dialog id="viewer"><img alt="" /><button aria-label="Close">✕</button></dialog>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

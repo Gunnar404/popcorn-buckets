@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//popcorn-buckets//tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Popcorn Bucket Drops
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:amc-avengers-doomsday-avengers-doomsday-collectible-bucket@popcorn-buckets
+DTSTAMP:20261111T212320Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:🍿 AMC: Avengers: Doomsday — Avengers: Doomsday collectible bu
+ cket
+DESCRIPTION:AMC's Avengers: Doomsday concession collectibles.\nIn theaters
+  only\, while supplies last\nOpening-night previews\nMovie opens 2026-12-
+ 18\nhttps://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-b
+ uckets/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15H
+DESCRIPTION:AMC Avengers: Doomsday bucket drops tomorrow
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:amc-dune-part-three-sandworm-popcorn-bucket@popcorn-buckets
+DTSTAMP:20261111T212320Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:🍿 AMC: Dune: Part Three — Sandworm popcorn bucket
+DESCRIPTION:The sandworm bucket returns with a twist for the final Dune fi
+ lm.\nIncludes theater exclusives\; in theaters while supplies last\nOpeni
+ ng-night previews\nMovie opens 2026-12-18\nhttps://attractionsmagazine.co
+ m/dune-part-three-popcorn-bucketsk-collectibles/\nhttps://hollywoodlife.c
+ om/2026/10/29/dune-3-popcorn-bucket-cost/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15H
+DESCRIPTION:AMC Dune: Part Three bucket drops tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
