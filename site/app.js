@@ -48,9 +48,12 @@ const fmt = (iso, opts = { weekday: "short", month: "short", day: "numeric" }) =
   parseDate(iso).toLocaleDateString(undefined, opts);
 
 function relWeeks(thu, thisThu) {
+  const today = isoLocal(new Date());
+  const days = Math.round((parseDate(thu) - parseDate(today)) / 86400000);
+  if (thu === thisThu) return "on sale now";
+  if (days === 1) return "starts tomorrow";
+  if (days > 1 && days < 7) return `starts in ${days} days`;
   const weeks = Math.round((parseDate(thu) - parseDate(thisThu)) / (7 * 86400000));
-  if (weeks === 0) return "this week";
-  if (weeks === 1) return "next week";
   if (weeks === -1) return "last week";
   return weeks > 0 ? `in ${weeks} weeks` : `${-weeks} weeks ago`;
 }
