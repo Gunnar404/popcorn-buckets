@@ -53,6 +53,13 @@ function relLabel(firstDate) {
   return `${Math.round(-days / 7)} weeks ago`;
 }
 
+// Past sections count whole theater weeks back from this week's Thursday.
+function pastLabel(thu, thisThu) {
+  const weeks = Math.round((parseDate(thisThu) - parseDate(thu)) / (7 * 86400000));
+  if (weeks <= 0) return "this week";
+  return weeks === 1 ? "last week" : `${weeks} weeks ago`;
+}
+
 function firstDate(groups, upcoming) {
   const today = isoLocal(new Date());
   const ds = groups
@@ -262,7 +269,7 @@ function render() {
   if (state.showPast && pastWeeks.size) {
     app.append(el("h2", { class: "divider" }, "Previously released"));
     for (const w of [...pastWeeks.keys()].sort().reverse())
-      app.append(section(`Week of ${fmt(w)}`, relLabel(firstDate(pastWeeks.get(w), false)), pastWeeks.get(w), { past: true }));
+      app.append(section(`Week of ${fmt(w)}`, pastLabel(w, thisThu), pastWeeks.get(w), { past: true }));
   }
   if (!app.children.length) app.append(el("p", { class: "empty" }, "Nothing matches yet."));
 }
