@@ -1,12 +1,13 @@
 name: Popcorn bucket tracker
 
+# The research itself runs as a scheduled Claude Code session (see RESEARCH.md),
+# which pushes findings/latest.json. This workflow merges those findings into the
+# site, downloads photos, and publishes. No API key needed.
 on:
-  schedule:
-    - cron: "0 13 */2 * *" # every other day (odd dates) 13:00 UTC (8–9am Eastern)
-  workflow_dispatch: # "Run workflow" button for an on-demand refresh
   push:
     branches: [main]
-    paths: ["site/**", "scripts/**"] # redeploy when the site code changes
+    paths: ["findings/**"]
+  workflow_dispatch: # re-merge the latest findings / retry missing photos
 
 permissions:
   contents: write # commit refreshed data back to the repo
@@ -19,9 +20,8 @@ concurrency:
 
 jobs:
   update:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -31,10 +31,11 @@ jobs:
           cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm test
-      - name: Find new buckets
-        run: npm run update
+      - name: Check findings
+        run: node scripts/check-findings.mjs findings/latest.json
+      - name: Merge findings and fetch photos
+        run: node scripts/update.mjs --fixture findings/latest.json
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
       - name: Commit changes
         run: |
@@ -45,12 +46,12 @@ jobs:
             echo "No changes"
           else
             git commit -m "Popcorn buckets: update $(date -u +%F)"
+            git pull --rebase origin main
             git push
           fi
 
   deploy:
     needs: update
-    if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
