@@ -12,6 +12,7 @@
       "price": "$59.95 online; $59.99 in theaters (Resell Calendar says $50)",
       "purchaseNotes": "Online limit 3, final sale; sold out online almost at once",
       "description": "130 oz glossy black metal tin with silver rim, Godzilla climbing one side and gold King Ghidorah on the other.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/Godzilla-Minus-Zero-AMC-Mystery-Popcorn-Bucket-Gives-Away-King-Ghidorah-1599x900.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/10/06/godzilla-minus-zero-popcorn-buckets-are-a-massive-19-5-inches-tall-and-cost-90/",
@@ -32,6 +33,7 @@
       "price": "$98.99 online (sold out); in-theater price unknown",
       "purchaseNotes": "Comes with large popcorn at select theaters, while supplies last; sold out online elsewhere",
       "description": "Full-body Godzilla, 19.5 in tall and 22 in long, holds 85 oz, opens in the back.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Godzilla-Minus-Zero-Popcorn-Buckets-1600x900.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
@@ -51,6 +53,7 @@
       "price": "$42.99 online (bucket); combo price not posted",
       "purchaseNotes": "Combo filled with popcorn and soda; bucket in stock on Regal online store",
       "description": "Swimming Godzilla Bucket paired with a 3D Aqua Cup.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-water-lid-bucket.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
@@ -71,6 +74,7 @@
       "price": null,
       "purchaseNotes": "Comes with popcorn, in theaters, while supplies last",
       "description": "Red boxing glove with \"I Play Rocky\" on the white cuff.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-i-play-rocky-glove.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/rocky-popcorn-bucket/",
@@ -90,6 +94,7 @@
       "price": null,
       "purchaseNotes": "Select theaters, while supplies last; Rocky Collectible Combo also sold",
       "description": "Red boxing glove.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/rocky-popcorn-buckets-hero.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/rocky-popcorn-bucket/",
@@ -108,6 +113,7 @@
       "price": "$28.95 online; theater price not posted",
       "purchaseNotes": "Includes popcorn in theaters; AMC Shop limit 3, final sale",
       "description": "Red-and-white striped top hat with a white brim, 65 oz.",
+      "kids": false,
       "imageUrl": "https://amctheatresshop.com/cdn/shop/files/CAT_SNOW_65oz_CATHAT_F_102226.1793114619050.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
@@ -128,6 +134,7 @@
       "price": "$26.95 online; theater price not posted",
       "purchaseNotes": "Includes popcorn in theaters; sold out online Nov 10",
       "description": "Clear 100 oz bowl with the logo and an orange fish on the rim.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-amc-collectibles.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
@@ -147,6 +154,7 @@
       "price": null,
       "purchaseNotes": "In theaters only, not in online shop",
       "description": "Round tin with the logo and a red Thing 1 tag, topped with shaggy blue hair.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-amc-collectibles.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/"
@@ -159,11 +167,12 @@
       "design": "striped top hat",
       "chain": "Regal",
       "availableDate": "2026-11-05",
-      "dateNote": "with Thursday previews",
+      "dateNote": "sales began Nov 5 (Thursday previews)",
       "movieReleaseDate": "2026-11-06",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last; not sold online",
       "description": "Tall red-and-white striped hat.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-regal-cats-hat.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
@@ -182,6 +191,7 @@
       "price": "$26.99 online; theater price not posted",
       "purchaseNotes": "Comes with large popcorn in theaters; sold out online Nov 10",
       "description": "Clear round bowl with an orange fish on the rim and the logo on the front.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-regal-fish-bowl.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
@@ -200,6 +210,7 @@
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
       "description": "Red popcorn tub plus a cup with a Cat figure on the lid (1 of 2 toppers).",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/856168410_1621625636034089_8941932612422450649_n-675x900.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
@@ -218,6 +229,7 @@
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last; not sold online",
       "description": "Pink tin shaped like a hardcover book with the title on the cover and a bird and snake among flowers.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-slide2-book-tin.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
@@ -237,6 +249,7 @@
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda",
       "description": "Popcorn bucket and lidded straw cup with the bird-and-snake print.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/863598539_1023532406812566_5580112325417898242_n.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
@@ -256,6 +269,7 @@
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
       "description": "Tan briefcase-style polygraph machine with readout sheet, knobs, gauge and finger sensor; knob panel lifts to reach popcorn.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/851718181_975102561873634_2689870036739688287_n-675x900.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/11/05/focker-in-law-lie-detector-popcorn-bucket-regal-cinemark/",
@@ -274,13 +288,15 @@
       "price": null,
       "purchaseNotes": "Large popcorn, select theaters, while supplies last",
       "description": "Black three-legged witch's cauldron with ring handles and the Hexed logo.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Disneys-Hexed-Cauldron-Popcorn-Bucket-Is-Coming-to-Regal-AMC-and-Cinemark-1.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/hexed-popcorn-bucket/",
         "https://www.regmovies.com/promotions/hexed",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
       ]
     },
     {
@@ -295,13 +311,15 @@
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda",
       "description": "Popcorn tub and cup plus 1 of 3 drink toppers (Billie, Bucket or Beef Roger).",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-hexed-combo.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/hexed-popcorn-bucket/",
         "https://www.regmovies.com/promotions/hexed",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://wdwnt.com/2026/10/hexed-tickets-now-on-sale-cauldron-popcorn-bucket-and-more-novelties-coming-soon-to-theaters/",
-        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/"
+        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
       ]
     },
     {
@@ -311,11 +329,12 @@
       "design": "cauldron",
       "chain": "AMC",
       "availableDate": "2026-11-25",
-      "dateNote": "no AMC date stated",
+      "dateNote": "\"coming for opening day\" Nov 25; no earlier AMC date stated",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with popcorn; Kettle Corn extra; Stubs upgrades don't apply",
       "description": "Black witch's cauldron with the Hexed logo.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/Disneys-Hexed-Takes-Over-AMC-Disney-Springs-Ahead-of-Its-November-25-Release.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/11/11/hexed-amc-disney-springs-takeover-photo-op-popcorn-bucket/",
@@ -334,6 +353,7 @@
       "price": null,
       "purchaseNotes": "In theaters only, while supplies last; includes popcorn (gourmet excluded)",
       "description": "Waist-up Doom with arms crossed and glowing green eyes.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/870911148_1848658606128965_2794902179215616533_n.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
@@ -355,6 +375,7 @@
       "price": null,
       "purchaseNotes": "Includes popcorn",
       "description": "Purple Sentinel robot head with green eyes.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-doomsday-collectibles.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
@@ -375,6 +396,7 @@
       "price": null,
       "purchaseNotes": "Includes popcorn",
       "description": "Glowing hexagon in three designs (Avengers \"A\", X-Men \"X\", Doom).",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-doomsday-collectibles.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
@@ -396,6 +418,7 @@
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters",
       "description": "Doom seated on a throne atop a glowing green base.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/doom-throne-1352x900.webp",
       "sources": [
         "https://www.comicbasics.com/?p=200163",
@@ -418,6 +441,7 @@
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
       "description": "Waist-up Doom with arms crossed; popcorn goes in through the back.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/doom-popcorn-bucket-1352x900.webp",
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
@@ -438,6 +462,7 @@
       "price": null,
       "purchaseNotes": "Both filled with popcorn and soda",
       "description": "Premium: stone-look tin with Avengers logo plus cup topped with tiny Doom on throne. Standard: tin and cup printed with heroes.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/866725609_1422305286152634_3896925503307110699_n.jpg",
       "sources": [
         "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
@@ -456,6 +481,7 @@
       "price": null,
       "purchaseNotes": "Includes popcorn (gourmet extra)",
       "description": "Cream tub showing Fremen walking the dunes, with two open-mouthed sandworms rising from the lid.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/AMCs-Dune_-Part-Three-Popcorn-Bucket-Is-for-the-Guys-and-This-Time-It-Has-Two-Holes-1600x900.jpg",
       "sources": [
         "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/",
@@ -477,6 +503,7 @@
       "price": null,
       "purchaseNotes": null,
       "description": "Sandworm rising from the lid, with a thumper on the side that \"really thumps.\"",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Dune-Part-3-Popcorn-Buckets.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/",
@@ -496,6 +523,7 @@
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
       "description": "Tall bronze/copper ridged vessel with a red oval near the top and a small side door for popcorn.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/dune-high-end-1352x900.webp",
       "sources": [
         "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/",
@@ -515,9 +543,11 @@
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
       "description": "Popcorn tub and cup with desert art.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-x-hvztycox0aaj-t-.jpg",
       "sources": [
-        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/"
+        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
+        "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/"
       ]
     },
     {
@@ -532,6 +562,7 @@
       "price": "$99.95 online; theater price not posted",
       "purchaseNotes": "Includes popcorn in theaters; online limit 3, sold out by Nov 7",
       "description": "19.5-inch full-body Godzilla, 85 oz.",
+      "kids": false,
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-godzilla-collectible.jpg",
       "sources": [
         "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
@@ -552,6 +583,7 @@
       "price": null,
       "purchaseNotes": "Comes with popcorn (gourmet not included)",
       "description": "Popcorn tin with a shiny purple-and-gold snake and bird wrapped around the front.",
+      "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Hunger-Games-Sunrise-on-the-Reaping-Popcorn-Buckets.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
