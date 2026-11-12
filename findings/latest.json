@@ -213,7 +213,7 @@
       "design": "book tin",
       "chain": "Regal",
       "availableDate": "2026-11-18",
-      "dateNote": "early-access night",
+      "dateNote": "select theaters starting Nov 18",
       "movieReleaseDate": "2026-11-20",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last; not sold online",
@@ -251,7 +251,7 @@
       "design": "lie detector",
       "chain": "Regal",
       "availableDate": "2026-11-24",
-      "dateNote": null,
+      "dateNote": "select theaters starting Nov 24; in-theater price not posted",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
@@ -269,7 +269,7 @@
       "design": "cauldron",
       "chain": "Regal",
       "availableDate": "2026-11-24",
-      "dateNote": "one source may say Nov 25",
+      "dateNote": "arrives Nov 24 at select theaters",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Large popcorn, select theaters, while supplies last",
@@ -279,7 +279,8 @@
         "https://hauntedattractionnetwork.com/hexed-popcorn-bucket/",
         "https://www.regmovies.com/promotions/hexed",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
-        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/"
+        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
       ]
     },
     {
@@ -390,7 +391,7 @@
       "design": "doom throne",
       "chain": "Regal",
       "availableDate": "2026-12-17",
-      "dateNote": "Expected with the Dec 18 opening; date not confirmed",
+      "dateNote": "select theaters starting Dec 17",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters",
@@ -401,7 +402,8 @@
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.regmovies.com/promotions/avengers",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
-        "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/"
+        "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/",
+        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/"
       ]
     },
     {
@@ -488,8 +490,8 @@
       "name": "Spacing Guild Navigator Popcorn Bucket",
       "design": "navigator vessel",
       "chain": "Regal",
-      "availableDate": "2026-12-17",
-      "dateNote": "estimated; Regal says only December 2026",
+      "availableDate": null,
+      "dateNote": "December 2026; exact date not announced (AMC and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
@@ -507,8 +509,8 @@
       "name": "Dune Collectible Combo bucket",
       "design": "dune collectible combo",
       "chain": "Regal",
-      "availableDate": "2026-12-17",
-      "dateNote": "estimated; December",
+      "availableDate": null,
+      "dateNote": "December 2026; exact date not announced (AMC and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
@@ -545,7 +547,7 @@
       "design": "flint striker tin",
       "chain": "AMC",
       "availableDate": null,
-      "dateNote": "TBA",
+      "dateNote": "TBA; as of Nov 9-10 AMC had not posted it on its site or shop",
       "movieReleaseDate": "2026-11-20",
       "price": null,
       "purchaseNotes": "Comes with popcorn (gourmet not included)",
@@ -553,7 +555,8 @@
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Hunger-Games-Sunrise-on-the-Reaping-Popcorn-Buckets.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
-        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/"
+        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
+        "https://www.yahoo.com/entertainment/movies/articles/amc-regal-cinemark-just-revealed-203004440.html"
       ]
     }
   ]
