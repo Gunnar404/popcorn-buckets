@@ -53,6 +53,7 @@ Rules for the fields:
 - **Every field must be present.** Use `null` when something isn't stated, and `[]` for `sources` only if you truly have none.
 - **One entry per chain per design.** If AMC and Regal sell the same design, make two entries with the same `design` text.
 - **Dates:** `YYYY-MM-DD`. Never guess a date, price or image URL. If an article says "coming soon", use `null` and put that in `dateNote`.
+- **Withdrawing a wrong date:** for a known item (`existingId` set), `availableDate: null` *with* a `dateNote` explaining why (e.g. "December; exact date not announced") removes the date stored on the site. `null` with no `dateNote` leaves the stored date alone, so only do this when sources really don't give a date.
 - **`imageUrl`:** a direct `.jpg`/`.png`/`.webp` link to a photo of that specific item, if an article contains one. Otherwise `null`; the Action will fall back to the article's preview image.
 
 ## 5. Check, commit, push

@@ -132,6 +132,12 @@ export function mergeBuckets(existing, incoming, nowISO) {
           changed = true;
         }
       }
+      // A re-check that explicitly reports the date as unconfirmed (no date, but a
+      // note explaining why) withdraws a previously stored date. A bare null doesn't.
+      if (raw.existingId === id && b.availableDate === null && b.dateNote && prev.availableDate) {
+        merged.availableDate = null;
+        changed = true;
+      }
       const sources = [...new Set([...(prev.sources ?? []), ...b.sources])];
       if (sources.length !== (prev.sources ?? []).length) changed = true;
       merged.sources = sources;

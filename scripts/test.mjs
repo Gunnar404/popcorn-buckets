@@ -69,6 +69,15 @@ test("merge drops junk and bad dates/urls", () => {
   assert.deepEqual(r.buckets[0].sources, []);
 });
 
+test("re-check with a note withdraws a stored date; bare null does not", () => {
+  const r1 = mergeBuckets([], [{ ...base, availableDate: "2026-12-17" }], "t1");
+  const id = r1.buckets[0].id;
+  const kept = mergeBuckets(r1.buckets, [{ ...base, existingId: id, availableDate: null, dateNote: null }], "t2");
+  assert.equal(kept.buckets[0].availableDate, "2026-12-17");
+  const cleared = mergeBuckets(r1.buckets, [{ ...base, existingId: id, availableDate: null, dateNote: "December; exact date not announced" }], "t3");
+  assert.equal(cleared.buckets[0].availableDate, null);
+});
+
 test("og:image extraction", () => {
   const html = `<head><meta content="/img/a.jpg?x=1&amp;y=2" property="og:image"><meta name="twitter:image" content="https://t/b.png"></head>`;
   assert.equal(extractMetaImage(html, "https://site.example/post"), "https://site.example/img/a.jpg?x=1&y=2");
