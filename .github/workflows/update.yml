@@ -2,7 +2,7 @@ name: Popcorn bucket tracker
 
 on:
   schedule:
-    - cron: "0 13 * * 1" # every Monday 13:00 UTC (8–9am Eastern)
+    - cron: "0 13 */2 * *" # every other day (odd dates) 13:00 UTC (8–9am Eastern)
   workflow_dispatch: # "Run workflow" button for an on-demand refresh
   push:
     branches: [main]
@@ -44,7 +44,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Popcorn buckets: weekly update $(date -u +%F)"
+            git commit -m "Popcorn buckets: update $(date -u +%F)"
             git push
           fi
 

@@ -2,7 +2,7 @@
 
 A dark-mode web page listing upcoming collectible popcorn buckets at AMC and Regal. Buckets are grouped by **theater week (Thursday → Wednesday)** and each one shows a picture, the chain, the date it goes on sale, when the movie opens, the price, and links to the sources.
 
-Every Monday a GitHub Action has Claude search the web for new and updated buckets, saves pictures, commits the data, and republishes the site.
+Every other day a GitHub Action has Claude search the web for new and updated buckets, saves pictures, commits the data, and republishes the site.
 
 There's also a **calendar feed** (`buckets.ics`). If you subscribe to it from your phone, every bucket drop shows up as an all-day event with a reminder the evening before.
 
@@ -26,7 +26,7 @@ If a bucket's on-sale date isn't announced yet, it goes in its movie's opening w
 
 The site will be at `https://<user>.github.io/popcorn-buckets/`. Pages on a private repo requires a paid GitHub plan, so keep the repo public.
 
-**Cost:** one Claude run per week with up to 25 searches and 25 page fetches. That's typically a dollar or two per run.
+**Cost:** one Claude run every other day with up to 25 searches and 25 page fetches. That is typically $1–2 per run, roughly $15–30 a month. To go back to weekly (Mondays), change the cron line in `.github/workflows/update.yml` to `0 13 * * 1`.
 
 ## Local use
 
@@ -44,8 +44,8 @@ You can tune the search window with the `LOOKBACK_DAYS` and `LOOKAHEAD_DAYS` env
 ## Files
 
 ```
-.github/workflows/update.yml   Monday schedule + Pages deploy
-scripts/update.mjs   weekly job (research → extract → merge → images → calendar)
+.github/workflows/update.yml   every-other-day schedule + Pages deploy
+scripts/update.mjs   scheduled job (research → extract → merge → images → calendar)
 scripts/lib.mjs      pure helpers (merge, Thursday weeks, og:image, .ics)
 scripts/test.mjs     tests
 site/                the static site that gets deployed
