@@ -6,6 +6,7 @@ You are the scheduled research step for this site. Your job is to find collectib
 
 - **Chains:** AMC and Regal only (US). Ignore every other chain.
 - **Items:** collectible popcorn buckets and similar novelty popcorn containers: tins, sculpted buckets, vehicle- or character-shaped holders, and "collectible combo" buckets.
+- **Kids' buckets count too:** kids' combo/snack-pack collectibles (smaller character buckets, kids' popcorn tubs or pails with a toy/topper, AMC/Regal kids' movie-tie-in containers). Mark these with `"kids": true`. Kids' cups or toys with no popcorn container don't count.
 - **Window:** anything going on sale from **14 days ago to 75 days ahead**, plus anything already announced for later with a known date.
 - **Only movie tie-ins:** a bucket must be tied to a movie's theater release. Skip one-day events (e.g. Batman Day), TV or streaming tie-ins, and the titles in `EXCLUDED_MOVIES` in `scripts/lib.mjs`.
 - **Timing:** new buckets usually go on sale on a Thursday with the movie's preview showings, sometimes a day or two earlier.
@@ -42,6 +43,7 @@ Overwrite the file with everything you found or re-confirmed this run:
       "price": "$34.99 with large popcorn",
       "purchaseNotes": "In theaters, while supplies last",
       "description": "Sculpted Spacing Guild Navigator tank.",
+      "kids": false,
       "imageUrl": "https://example.com/navigator.jpg",
       "sources": ["https://example.com/article"]
     }
@@ -54,6 +56,7 @@ Rules for the fields:
 - **One entry per chain per design.** If AMC and Regal sell the same design, make two entries with the same `design` text.
 - **Dates:** `YYYY-MM-DD`. Never guess a date, price or image URL. If an article says "coming soon", use `null` and put that in `dateNote`.
 - **Withdrawing a wrong date:** for a known item (`existingId` set), `availableDate: null` *with* a `dateNote` explaining why (e.g. "December; exact date not announced") removes the date stored on the site. `null` with no `dateNote` leaves the stored date alone, so only do this when sources really don't give a date.
+- **`kids`:** `true` for a kids' bucket/pail/tub (kids' combo or kids' menu item), otherwise `false`.
 - **`imageUrl`:** a direct `.jpg`/`.png`/`.webp` link to a photo of that specific item, if an article contains one. Otherwise `null`; the Action will fall back to the article's preview image.
 
 ## 5. Check, commit, push

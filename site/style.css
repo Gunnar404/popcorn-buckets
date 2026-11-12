@@ -238,3 +238,18 @@ dialog button {
   .more { margin-top: 6px; font-size: 12px; }
   .more summary { font-size: 11px; }
 }
+
+.kids {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #6ee7b7;
+  color: #0d0f14;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  vertical-align: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

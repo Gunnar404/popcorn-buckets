@@ -88,6 +88,7 @@ export function normalizeIncoming(raw) {
     price: cleanStr(raw.price),
     purchaseNotes: cleanStr(raw.purchaseNotes),
     description: cleanStr(raw.description),
+    kids: typeof raw.kids === "boolean" ? raw.kids : null,
     imageUrl: cleanUrl(raw.imageUrl),
     sources: [...new Set((raw.sources ?? []).map(cleanUrl).filter(Boolean))],
   };

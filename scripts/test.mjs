@@ -78,6 +78,13 @@ test("re-check with a note withdraws a stored date; bare null does not", () => {
   assert.equal(cleared.buckets[0].availableDate, null);
 });
 
+test("kids flag is kept and merged", () => {
+  const r = mergeBuckets([], [{ ...base, kids: true }], "t");
+  assert.equal(r.buckets[0].kids, true);
+  const r2 = mergeBuckets(r.buckets, [{ ...base, existingId: r.buckets[0].id }], "t2");
+  assert.equal(r2.buckets[0].kids, true, "missing kids flag must not erase it");
+});
+
 test("og:image extraction", () => {
   const html = `<head><meta content="/img/a.jpg?x=1&amp;y=2" property="og:image"><meta name="twitter:image" content="https://t/b.png"></head>`;
   assert.equal(extractMetaImage(html, "https://site.example/post"), "https://site.example/img/a.jpg?x=1&y=2");

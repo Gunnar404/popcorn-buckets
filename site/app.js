@@ -199,7 +199,7 @@ function card(group) {
     el(
       "div",
       { class: "body" },
-      el("h3", { class: "movie" }, first.movie),
+      el("h3", { class: "movie" }, first.movie, group.some((m) => m.kids) && el("span", { class: "kids" }, "Kids")),
       el("p", { class: "name" }, names[0]),
       el("div", { class: "tiles" }, group.map(tile)),
       details,
@@ -234,7 +234,7 @@ function render() {
   const items = state.data.buckets.filter(
     (b) =>
       (state.chain === "All" || b.chain === state.chain) &&
-      (!q || `${b.movie} ${b.name} ${b.chain} ${b.description ?? ""}`.toLowerCase().includes(q)),
+      (!q || `${b.movie} ${b.name} ${b.chain} ${b.description ?? ""} ${b.kids ? "kids" : ""}`.toLowerCase().includes(q)),
   );
 
   // Upcoming = on-sale date (or, if unannounced, the movie's opening) is today or later.

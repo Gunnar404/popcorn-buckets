@@ -83,7 +83,7 @@ function researchPrompt(today, known) {
         .join("\n")
     : "(none yet)";
 
-  return `Today is ${today}. I track collectible popcorn buckets (and similar novelty popcorn containers such as tins, sculpted buckets, vehicle-shaped holders) sold at US movie theater chains: ${KNOWN_CHAINS.join(", ")}. Ignore every other chain.
+  return `Today is ${today}. I track collectible popcorn buckets (and similar novelty popcorn containers such as tins, sculpted buckets, vehicle-shaped holders, and kids' combo buckets/pails) sold at US movie theater chains: ${KNOWN_CHAINS.join(", ")}. Ignore every other chain.
 
 Find every collectible popcorn bucket that goes on sale (or went on sale) between ${from} and ${to}, plus any already announced for later where the release date is known. New buckets usually go on sale on a Thursday, often with the movie's preview showings.
 

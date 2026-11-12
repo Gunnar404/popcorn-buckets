@@ -34,6 +34,11 @@ export const BucketSchema = z.object({
     .nullable()
     .describe("How to get it: in theater only, online/app pre-order, while supplies last, limit, etc."),
   description: z.string().nullable().describe("One or two sentences describing the design"),
+  kids: z
+    .boolean()
+    .nullable()
+    .optional()
+    .describe("true for a kids' bucket / pail / tub (kids' combo or kids' menu collectible)"),
   imageUrl: z
     .string()
     .nullable()
