@@ -1,7 +1,15 @@
 // Pure helpers shared by update.mjs and the tests. No network, no filesystem.
 
 // Only these chains are tracked; anything else is dropped.
-export const KNOWN_CHAINS = ["AMC", "Regal", "Cinemark"];
+export const KNOWN_CHAINS = ["AMC", "Regal"];
+
+// Titles that aren't real bucket drops; never stored even if the search finds them again.
+export const EXCLUDED_MOVIES = ["Heated Rivalry", "Batman Day"];
+
+export function isExcludedMovie(movie) {
+  const m = String(movie ?? "").toLowerCase();
+  return EXCLUDED_MOVIES.some((x) => m.includes(x.toLowerCase()));
+}
 
 export function slugify(s) {
   return String(s)
@@ -64,7 +72,6 @@ export function normalizeChain(chain) {
   if (!c) return null;
   if (/^amc\b/i.test(c)) return "AMC";
   if (/^regal\b/i.test(c)) return "Regal";
-  if (/^cinemark\b/i.test(c)) return "Cinemark";
   return null;
 }
 
@@ -84,7 +91,7 @@ export function normalizeIncoming(raw) {
     imageUrl: cleanUrl(raw.imageUrl),
     sources: [...new Set((raw.sources ?? []).map(cleanUrl).filter(Boolean))],
   };
-  if (!b.movie || !b.name || !b.chain) return null;
+  if (!b.movie || !b.name || !b.chain || isExcludedMovie(b.movie)) return null;
   return b;
 }
 
@@ -136,7 +143,9 @@ export function mergeBuckets(existing, incoming, nowISO) {
   }
 
   // Drop anything stored earlier for chains that are no longer tracked.
-  const buckets = [...byId.values()].filter((b) => KNOWN_CHAINS.includes(b.chain)).sort(compareBuckets);
+  const buckets = [...byId.values()]
+    .filter((b) => KNOWN_CHAINS.includes(b.chain) && !isExcludedMovie(b.movie))
+    .sort(compareBuckets);
   return { buckets, added, updated };
 }
 

@@ -1,7 +1,6 @@
 const CHAIN_COLORS = {
   AMC: "#ff5a5f",
   Regal: "#ffcc4d",
-  Cinemark: "#5aa9ff",
 };
 const FALLBACK_COLORS = ["#94a3b8", "#fda4af", "#86efac", "#fcd34d", "#a5b4fc", "#67e8f9"];
 const RECENT_DAYS = 28;
