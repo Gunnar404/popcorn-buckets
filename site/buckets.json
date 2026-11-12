@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:31:21.662Z",
+  "updatedAt": "2026-11-12T21:08:54.069Z",
   "buckets": [
     {
       "id": "amc-godzilla-minus-zero-exclusive-mystery-tin",
@@ -21,8 +21,9 @@
       ],
       "image": "images/amc-godzilla-minus-zero-exclusive-mystery-tin.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "godzilla ghidorah tin"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "godzilla ghidorah tin",
+      "kids": false
     },
     {
       "id": "regal-godzilla-minus-zero-godzilla-popcorn-container-full-body",
@@ -43,8 +44,9 @@
       ],
       "image": "images/regal-godzilla-minus-zero-godzilla-popcorn-container-full-body.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "full-body godzilla"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "full-body godzilla",
+      "kids": false
     },
     {
       "id": "regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo",
@@ -66,8 +68,9 @@
       ],
       "image": "images/regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "swimming godzilla"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "swimming godzilla",
+      "kids": false
     },
     {
       "id": "amc-i-play-rocky-boxing-glove-bucket",
@@ -88,8 +91,9 @@
       ],
       "image": "images/amc-i-play-rocky-boxing-glove-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "boxing glove"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "boxing glove",
+      "kids": false
     },
     {
       "id": "regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket",
@@ -109,8 +113,9 @@
       ],
       "image": "images/regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "boxing glove"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "boxing glove",
+      "kids": false
     },
     {
       "id": "amc-the-cat-in-the-hat-top-hat-bucket",
@@ -132,8 +137,9 @@
       ],
       "image": "images/amc-the-cat-in-the-hat-top-hat-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "striped top hat"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "striped top hat",
+      "kids": false
     },
     {
       "id": "amc-the-cat-in-the-hat-fish-bowl-bucket",
@@ -154,8 +160,9 @@
       ],
       "image": "images/amc-the-cat-in-the-hat-fish-bowl-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "fish bowl"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "fish bowl",
+      "kids": false
     },
     {
       "id": "amc-the-cat-in-the-hat-thing-hair-bucket",
@@ -174,8 +181,9 @@
       ],
       "image": "images/amc-the-cat-in-the-hat-thing-hair-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "thing hair tin"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "thing hair tin",
+      "kids": false
     },
     {
       "id": "regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket",
@@ -183,7 +191,7 @@
       "name": "The Cat's Hat Popcorn Bucket",
       "chain": "Regal",
       "availableDate": "2026-11-05",
-      "dateNote": "with Thursday previews",
+      "dateNote": "sales began Nov 5 (Thursday previews)",
       "movieReleaseDate": "2026-11-06",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last; not sold online",
@@ -195,8 +203,9 @@
       ],
       "image": "images/regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "striped top hat"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "striped top hat",
+      "kids": false
     },
     {
       "id": "regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket",
@@ -216,8 +225,9 @@
       ],
       "image": "images/regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "fish bowl"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "fish bowl",
+      "kids": false
     },
     {
       "id": "regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup",
@@ -237,8 +247,9 @@
       ],
       "image": "images/regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "cat collectible combo"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "cat collectible combo",
+      "kids": false
     },
     {
       "id": "regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin",
@@ -259,8 +270,9 @@
       ],
       "image": "images/regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "book tin"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "book tin",
+      "kids": false
     },
     {
       "id": "regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket",
@@ -281,8 +293,9 @@
       ],
       "image": "images/regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "hunger games collectible combo"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "hunger games collectible combo",
+      "kids": false
     },
     {
       "id": "regal-focker-in-law-lie-detector-popcorn-bucket",
@@ -303,7 +316,8 @@
       ],
       "image": "images/regal-focker-in-law-lie-detector-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T23:00:37.646Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "kids": false
     },
     {
       "id": "regal-hexed-hexed-collectible-popcorn-bucket-cauldron",
@@ -322,12 +336,14 @@
         "https://www.regmovies.com/promotions/hexed",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
       ],
       "image": "images/regal-hexed-hexed-collectible-popcorn-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "cauldron"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "cauldron",
+      "kids": false
     },
     {
       "id": "regal-hexed-collectible-combo-character-tub",
@@ -346,12 +362,14 @@
         "https://www.regmovies.com/promotions/hexed",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://wdwnt.com/2026/10/hexed-tickets-now-on-sale-cauldron-popcorn-bucket-and-more-novelties-coming-soon-to-theaters/",
-        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/"
+        "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
       ],
       "image": "images/regal-hexed-collectible-combo-character-tub.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "hexed collectible combo"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "hexed collectible combo",
+      "kids": false
     },
     {
       "id": "amc-hexed-bucket-cauldron",
@@ -359,7 +377,7 @@
       "name": "\"Bucket\" cauldron",
       "chain": "AMC",
       "availableDate": "2026-11-25",
-      "dateNote": "no AMC date stated",
+      "dateNote": "\"coming for opening day\" Nov 25; no earlier AMC date stated",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with popcorn; Kettle Corn extra; Stubs upgrades don't apply",
@@ -371,8 +389,9 @@
       ],
       "image": "images/amc-hexed-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "cauldron"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "cauldron",
+      "kids": false
     },
     {
       "id": "amc-avengers-doomsday-avengers-doomsday-collectible-bucket",
@@ -395,8 +414,9 @@
       ],
       "image": "images/amc-avengers-doomsday-avengers-doomsday-collectible-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "doctor doom statue"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "doctor doom statue",
+      "kids": false
     },
     {
       "id": "amc-avengers-doomsday-sentinel-head",
@@ -418,8 +438,9 @@
       ],
       "image": "images/amc-avengers-doomsday-sentinel-head.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "sentinel head"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "sentinel head",
+      "kids": false
     },
     {
       "id": "amc-avengers-doomsday-team-icon-collectible",
@@ -442,8 +463,9 @@
       ],
       "image": "images/amc-avengers-doomsday-team-icon-collectible.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "team icon hexagon"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "team icon hexagon",
+      "kids": false
     },
     {
       "id": "regal-avengers-doomsday-doom-s-throne-bucket",
@@ -467,8 +489,9 @@
       ],
       "image": "images/regal-avengers-doomsday-doom-s-throne-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "doom throne"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "doom throne",
+      "kids": false
     },
     {
       "id": "regal-avengers-doomsday-doctor-doom-statue",
@@ -490,8 +513,9 @@
       ],
       "image": "images/regal-avengers-doomsday-doctor-doom-statue.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "doctor doom statue"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "doctor doom statue",
+      "kids": false
     },
     {
       "id": "regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo",
@@ -511,8 +535,9 @@
       ],
       "image": "images/regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "avengers collectible combo"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "avengers collectible combo",
+      "kids": false
     },
     {
       "id": "amc-dune-part-three-sandworm-popcorn-bucket",
@@ -535,8 +560,9 @@
       ],
       "image": "images/amc-dune-part-three-sandworm-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "double sandworm"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "double sandworm",
+      "kids": false
     },
     {
       "id": "amc-dune-part-three-sandworm-thumper-container",
@@ -557,7 +583,8 @@
       ],
       "image": "images/amc-dune-part-three-sandworm-thumper-container.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "kids": false
     },
     {
       "id": "regal-dune-part-three-spacing-guild-navigator-bucket",
@@ -578,8 +605,9 @@
       ],
       "image": "images/regal-dune-part-three-spacing-guild-navigator-bucket.png",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "navigator vessel"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "navigator vessel",
+      "kids": false
     },
     {
       "id": "regal-dune-part-three-dune-collectible-combo-bucket",
@@ -594,12 +622,14 @@
       "description": "Popcorn tub and cup with desert art.",
       "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-x-hvztycox0aaj-t-.jpg",
       "sources": [
-        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/"
+        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
+        "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/"
       ],
       "image": "images/regal-dune-part-three-dune-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "dune collectible combo"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "dune collectible combo",
+      "kids": false
     },
     {
       "id": "amc-godzilla-minus-zero-godzilla-collectible-full-body-figure",
@@ -621,8 +651,9 @@
       ],
       "image": "images/amc-godzilla-minus-zero-godzilla-collectible-full-body-figure.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "full-body godzilla"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "full-body godzilla",
+      "kids": false
     },
     {
       "id": "amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin",
@@ -643,8 +674,9 @@
       ],
       "image": "images/amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-12T19:31:21.662Z",
-      "design": "flint striker tin"
+      "lastSeen": "2026-11-12T21:08:54.069Z",
+      "design": "flint striker tin",
+      "kids": false
     }
   ]
 }
