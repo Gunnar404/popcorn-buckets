@@ -1,223 +1,6 @@
 {
   "buckets": [
     {
-      "existingId": "amc-godzilla-minus-zero-exclusive-mystery-tin",
-      "movie": "Godzilla Minus Zero",
-      "name": "Mystery Tin (Godzilla and Villain)",
-      "design": "godzilla ghidorah tin",
-      "chain": "AMC",
-      "availableDate": "2026-11-04",
-      "dateNote": "online date; first theater date not stated",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$59.95 online; $59.99 in theaters (Resell Calendar says $50)",
-      "purchaseNotes": "Online limit 3, final sale; sold out online almost at once",
-      "description": "130 oz glossy black metal tin with silver rim, Godzilla climbing one side and gold King Ghidorah on the other.",
-      "kids": false,
-      "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/Godzilla-Minus-Zero-AMC-Mystery-Popcorn-Bucket-Gives-Away-King-Ghidorah-1599x900.jpg",
-      "sources": [
-        "https://www.fantasylandnews.com/2026/10/06/godzilla-minus-zero-popcorn-buckets-are-a-massive-19-5-inches-tall-and-cost-90/",
-        "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/11/08/godzilla-minus-zero-amc-mystery-popcorn-bucket-gives-away-king-ghidorah/",
-        "https://resellcalendar.com/news/news/godzilla-minus-zero-amc-popcorn-bucket-reseller/"
-      ]
-    },
-    {
-      "existingId": "regal-godzilla-minus-zero-godzilla-popcorn-container-full-body",
-      "movie": "Godzilla Minus Zero",
-      "name": "Godzilla Popcorn Container (full-body)",
-      "design": "full-body godzilla",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": "on sale by around Nov 9; earlier 2026-11-05 date not re-confirmed",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$98.99 online (sold out); in-theater price unknown",
-      "purchaseNotes": "Comes with large popcorn at select theaters, while supplies last; sold out online elsewhere",
-      "description": "Full-body Godzilla, 19.5 in tall and 22 in long, holds 85 oz, opens in the back.",
-      "kids": false,
-      "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Godzilla-Minus-Zero-Popcorn-Buckets-1600x900.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/06/godzilla-minus-zero-popcorn-buckets-are-a-massive-19-5-inches-tall-and-cost-90/",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
-      ]
-    },
-    {
-      "existingId": "regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo",
-      "movie": "Godzilla Minus Zero",
-      "name": "Swimming Godzilla bucket (Collectible Combo)",
-      "design": "swimming godzilla",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": "on sale now; 2026-11-05 not re-confirmed",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$42.99 online (bucket); combo price not posted",
-      "purchaseNotes": "Combo filled with popcorn and soda; bucket in stock on Regal online store",
-      "description": "Swimming Godzilla Bucket paired with a 3D Aqua Cup.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/regal-water-lid-bucket.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/06/godzilla-minus-zero-popcorn-buckets-are-a-massive-19-5-inches-tall-and-cost-90/",
-        "https://store.regmovies.com/products/godzilla-minus-zero-popcorn-bucket-godzilla-emerging-from-water-lid",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
-      ]
-    },
-    {
-      "existingId": "amc-i-play-rocky-boxing-glove-bucket",
-      "movie": "I Play Rocky",
-      "name": "Boxing glove bucket",
-      "design": "boxing glove",
-      "chain": "AMC",
-      "availableDate": "2026-11-05",
-      "dateNote": "not re-verified",
-      "movieReleaseDate": "2026-11-06",
-      "price": null,
-      "purchaseNotes": "Comes with popcorn, in theaters, while supplies last",
-      "description": "Red boxing glove with \"I Play Rocky\" on the white cuff.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-i-play-rocky-glove.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/rocky-popcorn-bucket/",
-        "https://swandrivein.com/product/i-play-rocky-glove-popcorn-bucket/",
-        "https://movieweb.com/rocky-50th-anniversary-popcorn-bucket/"
-      ]
-    },
-    {
-      "existingId": "regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket",
-      "movie": "I Play Rocky",
-      "name": "I Play Rocky Boxing Glove Popcorn Bucket",
-      "design": "boxing glove",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": "not re-verified",
-      "movieReleaseDate": "2026-11-06",
-      "price": null,
-      "purchaseNotes": "Select theaters, while supplies last; Rocky Collectible Combo also sold",
-      "description": "Red boxing glove.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/rocky-popcorn-buckets-hero.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/rocky-popcorn-bucket/",
-        "https://swandrivein.com/product/i-play-rocky-glove-popcorn-bucket/"
-      ]
-    },
-    {
-      "existingId": "amc-the-cat-in-the-hat-top-hat-bucket",
-      "movie": "The Cat in the Hat",
-      "name": "Top Hat bucket",
-      "design": "striped top hat",
-      "chain": "AMC",
-      "availableDate": "2026-11-05",
-      "dateNote": "by opening 2026-11-06; exact start not stated",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$28.95 online; theater price not posted",
-      "purchaseNotes": "Includes popcorn in theaters; AMC Shop limit 3, final sale",
-      "description": "Red-and-white striped top hat with a white brim, 65 oz.",
-      "kids": false,
-      "imageUrl": "https://amctheatresshop.com/cdn/shop/files/CAT_SNOW_65oz_CATHAT_F_102226.1793114619050.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/19/the-cat-in-the-hat-popcorn-buckets-2026-fishbowl-cats-hat-and-everything-else/",
-        "https://amctheatresshop.com/products/the-cat-in-the-hat-popcorn-bucket-top-hat",
-        "https://wdwnt.com/2026/10/the-cat-in-the-hat-popcorn-buckets-and-more-merchandise-coming-soon-to-amc-regal-and-cinemark-theaters/"
-      ]
-    },
-    {
-      "existingId": "amc-the-cat-in-the-hat-fish-bowl-bucket",
-      "movie": "The Cat in the Hat",
-      "name": "Fish Bowl bucket",
-      "design": "fish bowl",
-      "chain": "AMC",
-      "availableDate": "2026-11-05",
-      "dateNote": "by opening 2026-11-06; exact start not stated",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$26.95 online; theater price not posted",
-      "purchaseNotes": "Includes popcorn in theaters; sold out online Nov 10",
-      "description": "Clear 100 oz bowl with the logo and an orange fish on the rim.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-amc-collectibles.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/19/the-cat-in-the-hat-popcorn-buckets-2026-fishbowl-cats-hat-and-everything-else/",
-        "https://wdwnt.com/2026/10/the-cat-in-the-hat-popcorn-buckets-and-more-merchandise-coming-soon-to-amc-regal-and-cinemark-theaters/"
-      ]
-    },
-    {
-      "existingId": "amc-the-cat-in-the-hat-thing-hair-bucket",
-      "movie": "The Cat in the Hat",
-      "name": "Thing hair bucket",
-      "design": "thing hair tin",
-      "chain": "AMC",
-      "availableDate": "2026-11-05",
-      "dateNote": "by opening 2026-11-06; exact start not stated",
-      "movieReleaseDate": "2026-11-06",
-      "price": null,
-      "purchaseNotes": "In theaters only, not in online shop",
-      "description": "Round tin with the logo and a red Thing 1 tag, topped with shaggy blue hair.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-amc-collectibles.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/"
-      ]
-    },
-    {
-      "existingId": "regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket",
-      "movie": "The Cat in the Hat",
-      "name": "The Cat's Hat Popcorn Bucket",
-      "design": "striped top hat",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": "sales began Nov 5 (Thursday previews)",
-      "movieReleaseDate": "2026-11-06",
-      "price": null,
-      "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last; not sold online",
-      "description": "Tall red-and-white striped hat.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-regal-cats-hat.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
-        "https://pixeltwelve.com/articles/the-cat-in-the-hat-fishbowl-popcorn-bucket-regal"
-      ]
-    },
-    {
-      "existingId": "regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket",
-      "movie": "The Cat in the Hat",
-      "name": "Fish Bowl Popcorn Bucket",
-      "design": "fish bowl",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": null,
-      "movieReleaseDate": "2026-11-06",
-      "price": "$26.99 online; theater price not posted",
-      "purchaseNotes": "Comes with large popcorn in theaters; sold out online Nov 10",
-      "description": "Clear round bowl with an orange fish on the rim and the logo on the front.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/cat-in-the-hat-popcorn-buckets-regal-fish-bowl.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
-        "https://pixeltwelve.com/articles/the-cat-in-the-hat-fishbowl-popcorn-bucket-regal"
-      ]
-    },
-    {
-      "existingId": "regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup",
-      "movie": "The Cat in the Hat",
-      "name": "Collectible Combo (popcorn tin and topper cup)",
-      "design": "cat collectible combo",
-      "chain": "Regal",
-      "availableDate": "2026-11-05",
-      "dateNote": null,
-      "movieReleaseDate": "2026-11-06",
-      "price": null,
-      "purchaseNotes": "Filled with popcorn and soda, select theaters",
-      "description": "Red popcorn tub plus a cup with a Cat figure on the lid (1 of 2 toppers).",
-      "kids": false,
-      "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/856168410_1621625636034089_8941932612422450649_n-675x900.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/cat-in-the-hat-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/19/the-cat-in-the-hat-popcorn-buckets-2026-fishbowl-cats-hat-and-everything-else/"
-      ]
-    },
-    {
       "existingId": "regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin",
       "movie": "The Hunger Games: Sunrise on the Reaping",
       "name": "Book Tin",
@@ -255,6 +38,27 @@
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
         "https://attractionsmagazine.com/regal-hunger-games-reaping-book-tin-movie-theater-collection/",
         "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/"
+      ]
+    },
+    {
+      "existingId": "amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin",
+      "movie": "The Hunger Games: Sunrise on the Reaping",
+      "name": "Flint Striker Tin",
+      "design": "flint striker tin",
+      "chain": "AMC",
+      "availableDate": null,
+      "dateNote": "TBA; as of Nov 10 AMC had not posted it on its site or shop",
+      "movieReleaseDate": "2026-11-20",
+      "price": null,
+      "purchaseNotes": "Comes with popcorn (gourmet not included)",
+      "description": "Popcorn tin with a shiny purple-and-gold snake and bird wrapped around the front.",
+      "kids": false,
+      "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Hunger-Games-Sunrise-on-the-Reaping-Popcorn-Buckets.jpg",
+      "sources": [
+        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
+        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
+        "https://www.yahoo.com/entertainment/movies/articles/amc-regal-cinemark-just-revealed-203004440.html",
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
       ]
     },
     {
@@ -319,7 +123,8 @@
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://wdwnt.com/2026/10/hexed-tickets-now-on-sale-cauldron-popcorn-bucket-and-more-novelties-coming-soon-to-theaters/",
         "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
-        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/",
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
       ]
     },
     {
@@ -338,7 +143,8 @@
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/Disneys-Hexed-Takes-Over-AMC-Disney-Springs-Ahead-of-Its-November-25-Release.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/11/11/hexed-amc-disney-springs-takeover-photo-op-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/"
+        "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
       ]
     },
     {
@@ -360,7 +166,8 @@
         "https://attractionsmagazine.com/avengers-doomsday-popcorn-buckets-sippers-revealed/",
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
         "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
-        "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/"
+        "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
+        "https://www.comicbasics.com/?p=202629"
       ]
     },
     {
@@ -381,7 +188,8 @@
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://attractionsmagazine.com/avengers-doomsday-popcorn-buckets-sippers-revealed/",
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
-        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/"
+        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
+        "https://www.comicbasics.com/?p=202629"
       ]
     },
     {
@@ -403,7 +211,8 @@
         "https://attractionsmagazine.com/avengers-doomsday-popcorn-buckets-sippers-revealed/",
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
-        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/"
+        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
+        "https://www.comicbasics.com/?p=202629"
       ]
     },
     {
@@ -426,7 +235,8 @@
         "https://www.regmovies.com/promotions/avengers",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
         "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/",
-        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/"
+        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
+        "https://www.comicbasics.com/?p=202629"
       ]
     },
     {
@@ -447,7 +257,8 @@
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.regmovies.com/promotions/avengers",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
-        "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/"
+        "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/",
+        "https://www.comicbasics.com/?p=202629"
       ]
     },
     {
@@ -495,7 +306,7 @@
       "existingId": "amc-dune-part-three-sandworm-thumper-container",
       "movie": "Dune: Part Three",
       "name": "Sandworm \"thumper\" container",
-      "design": null,
+      "design": "sandworm thumper",
       "chain": "AMC",
       "availableDate": "2026-12-17",
       "dateNote": "sources disagree whether it is a cup or popcorn bucket",
@@ -528,7 +339,8 @@
       "sources": [
         "https://attractionsmagazine.com/dune-part-three-popcorn-bucketsk-collectibles/",
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
-        "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/"
+        "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/",
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
       ]
     },
     {
@@ -548,47 +360,6 @@
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/"
-      ]
-    },
-    {
-      "existingId": "amc-godzilla-minus-zero-godzilla-collectible-full-body-figure",
-      "movie": "Godzilla Minus Zero",
-      "name": "Godzilla Collectible (full-body figure)",
-      "design": "full-body godzilla",
-      "chain": "AMC",
-      "availableDate": null,
-      "dateNote": "on sale by the Nov 6 opening; exact theater date not stated",
-      "movieReleaseDate": "2026-11-06",
-      "price": "$99.95 online; theater price not posted",
-      "purchaseNotes": "Includes popcorn in theaters; online limit 3, sold out by Nov 7",
-      "description": "19.5-inch full-body Godzilla, 85 oz.",
-      "kids": false,
-      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/amc-godzilla-collectible.jpg",
-      "sources": [
-        "https://hauntedattractionnetwork.com/godzilla-minus-zero-popcorn-bucket/",
-        "https://attractionsmagazine.com/godzilla-minus-zero-popcorn-bucket/",
-        "https://www.fantasylandnews.com/2026/11/08/godzilla-minus-zero-amc-mystery-popcorn-bucket-gives-away-king-ghidorah/",
-        "https://resellcalendar.com/news/news/godzilla-minus-zero-amc-popcorn-bucket-reseller/"
-      ]
-    },
-    {
-      "existingId": "amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin",
-      "movie": "The Hunger Games: Sunrise on the Reaping",
-      "name": "Flint Striker Tin",
-      "design": "flint striker tin",
-      "chain": "AMC",
-      "availableDate": null,
-      "dateNote": "TBA; as of Nov 9-10 AMC had not posted it on its site or shop",
-      "movieReleaseDate": "2026-11-20",
-      "price": null,
-      "purchaseNotes": "Comes with popcorn (gourmet not included)",
-      "description": "Popcorn tin with a shiny purple-and-gold snake and bird wrapped around the front.",
-      "kids": false,
-      "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Hunger-Games-Sunrise-on-the-Reaping-Popcorn-Buckets.jpg",
-      "sources": [
-        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
-        "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
-        "https://www.yahoo.com/entertainment/movies/articles/amc-regal-cinemark-just-revealed-203004440.html"
       ]
     }
   ]
