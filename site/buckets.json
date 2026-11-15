@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T12:42:50.771Z",
+  "updatedAt": "2026-11-15T12:41:30.160Z",
   "buckets": [
     {
       "id": "amc-godzilla-minus-zero-exclusive-mystery-tin",
@@ -270,7 +270,7 @@
       ],
       "image": "images/regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "book tin",
       "kids": false
     },
@@ -293,7 +293,7 @@
       ],
       "image": "images/regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "hunger games collectible combo",
       "kids": false
     },
@@ -316,7 +316,7 @@
       ],
       "image": "images/regal-focker-in-law-lie-detector-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T23:00:37.646Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "kids": false
     },
     {
@@ -341,7 +341,7 @@
       ],
       "image": "images/regal-hexed-hexed-collectible-popcorn-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "cauldron",
       "kids": false
     },
@@ -368,7 +368,7 @@
       ],
       "image": "images/regal-hexed-collectible-combo-character-tub.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "hexed collectible combo",
       "kids": false
     },
@@ -387,11 +387,12 @@
       "sources": [
         "https://www.fantasylandnews.com/2026/11/11/hexed-amc-disney-springs-takeover-photo-op-popcorn-bucket/",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
       ],
       "image": "images/amc-hexed-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "cauldron",
       "kids": false
     },
@@ -404,7 +405,7 @@
       "dateNote": "with Thursday previews",
       "movieReleaseDate": "2026-12-18",
       "price": null,
-      "purchaseNotes": "In theaters only, while supplies last; includes popcorn (gourmet excluded)",
+      "purchaseNotes": "In theaters only, while supplies last; includes popcorn (gourmet excluded); comicbasics says an LED version lights up",
       "description": "Waist-up Doom with arms crossed and glowing green eyes.",
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/870911148_1848658606128965_2794902179215616533_n.jpg",
       "sources": [
@@ -417,7 +418,7 @@
       ],
       "image": "images/amc-avengers-doomsday-avengers-doomsday-collectible-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -442,7 +443,7 @@
       ],
       "image": "images/amc-avengers-doomsday-sentinel-head.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "sentinel head",
       "kids": false
     },
@@ -468,7 +469,7 @@
       ],
       "image": "images/amc-avengers-doomsday-team-icon-collectible.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "team icon hexagon",
       "kids": false
     },
@@ -495,7 +496,7 @@
       ],
       "image": "images/regal-avengers-doomsday-doom-s-throne-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "doom throne",
       "kids": false
     },
@@ -520,7 +521,7 @@
       ],
       "image": "images/regal-avengers-doomsday-doctor-doom-statue.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -542,7 +543,7 @@
       ],
       "image": "images/regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "avengers collectible combo",
       "kids": false
     },
@@ -567,7 +568,7 @@
       ],
       "image": "images/amc-dune-part-three-sandworm-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "double sandworm",
       "kids": false
     },
@@ -590,7 +591,7 @@
       ],
       "image": "images/amc-dune-part-three-sandworm-thumper-container.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "kids": false,
       "design": "sandworm thumper"
     },
@@ -600,7 +601,7 @@
       "name": "Spacing Guild Navigator Popcorn Bucket",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date not announced (AMC and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 13 (AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
@@ -614,7 +615,7 @@
       ],
       "image": "images/regal-dune-part-three-spacing-guild-navigator-bucket.png",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "navigator vessel",
       "kids": false
     },
@@ -624,7 +625,7 @@
       "name": "Dune Collectible Combo bucket",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date not announced (AMC and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 13 (AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
@@ -636,7 +637,7 @@
       ],
       "image": "images/regal-dune-part-three-dune-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "dune collectible combo",
       "kids": false
     },
@@ -670,7 +671,7 @@
       "name": "Flint Striker Tin",
       "chain": "AMC",
       "availableDate": null,
-      "dateNote": "TBA; as of Nov 10 AMC had not posted it on its site or shop",
+      "dateNote": "TBA; as of Nov 13 AMC had not posted it on its site or shop (film opens Nov 20)",
       "movieReleaseDate": "2026-11-20",
       "price": null,
       "purchaseNotes": "Comes with popcorn (gourmet not included)",
@@ -680,11 +681,12 @@
         "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
         "https://www.yahoo.com/entertainment/movies/articles/amc-regal-cinemark-just-revealed-203004440.html",
-        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/"
+        "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
+        "https://news.ssbcrack.com/the-hunger-games-sunrise-on-the-reaping-merchandise-competition-heats-up-at-theaters/"
       ],
       "image": "images/amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-13T12:42:50.771Z",
+      "lastSeen": "2026-11-15T12:41:30.160Z",
       "design": "flint striker tin",
       "kids": false
     }
