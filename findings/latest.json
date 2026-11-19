@@ -17,7 +17,8 @@
       "sources": [
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
         "https://attractionsmagazine.com/regal-hunger-games-reaping-book-tin-movie-theater-collection/",
-        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/"
+        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
+        "https://shopping.yahoo.com/gift-ideas/articles/sunrise-reaping-merch-where-book-161315919.html"
       ]
     },
     {
@@ -37,7 +38,8 @@
       "sources": [
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
         "https://attractionsmagazine.com/regal-hunger-games-reaping-book-tin-movie-theater-collection/",
-        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/"
+        "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
+        "https://shopping.yahoo.com/gift-ideas/articles/sunrise-reaping-merch-where-book-161315919.html"
       ]
     },
     {
@@ -46,8 +48,8 @@
       "name": "Flint Striker Tin",
       "design": "flint striker tin",
       "chain": "AMC",
-      "availableDate": null,
-      "dateNote": "TBA; as of Nov 17 AMC still had not posted it on its site or shop (film opens Nov 20)",
+      "availableDate": "2026-11-19",
+      "dateNote": "in theaters Nov 19 (Thursday previews) per NorthJersey.com/Yahoo; AMC had not posted it on its own site as of mid-Nov",
       "movieReleaseDate": "2026-11-20",
       "price": null,
       "purchaseNotes": "Comes with popcorn (gourmet not included)",
@@ -55,6 +57,7 @@
       "kids": false,
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/Hunger-Games-Sunrise-on-the-Reaping-Popcorn-Buckets.jpg",
       "sources": [
+        "https://shopping.yahoo.com/gift-ideas/articles/sunrise-reaping-merch-where-book-161315919.html",
         "https://www.fantasylandnews.com/2026/10/28/hunger-games-sunrise-on-the-reaping-popcorn-buckets/",
         "https://hauntedattractionnetwork.com/hunger-games-popcorn-bucket/",
         "https://www.yahoo.com/entertainment/movies/articles/amc-regal-cinemark-just-revealed-203004440.html",
@@ -69,7 +72,7 @@
       "design": "lie detector",
       "chain": "Regal",
       "availableDate": "2026-11-24",
-      "dateNote": "select theaters starting Nov 24; in-theater price not posted",
+      "dateNote": "select theaters starting Nov 24 (Fantasy Land News); Regal promo page did not list the bucket as of Nov 11",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
@@ -78,7 +81,8 @@
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/11/851718181_975102561873634_2689870036739688287_n-675x900.jpg",
       "sources": [
         "https://www.fantasylandnews.com/2026/11/05/focker-in-law-lie-detector-popcorn-bucket-regal-cinemark/",
-        "https://www.fantasylandnews.com/2026/11/11/focker-in-law-lie-detector-popcorn-bucket-on-sale-cinemark-fandango/"
+        "https://www.fantasylandnews.com/2026/11/11/focker-in-law-lie-detector-popcorn-bucket-on-sale-cinemark-fandango/",
+        "https://hauntedattractionnetwork.com/focker-in-law-popcorn-bucket/"
       ]
     },
     {
@@ -331,7 +335,7 @@
       "design": "navigator vessel",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 13 (AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 19 (AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
@@ -352,7 +356,7 @@
       "design": "dune collectible combo",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 13 (AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 19 (AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
@@ -385,7 +389,7 @@
       ]
     },
     {
-      "existingId": null,
+      "existingId": "amc-the-further-mis-adventures-of-cliff-booth-cliff-booth-popcorn-bucket",
       "movie": "The Further Mis-Adventures of Cliff Booth",
       "name": "Cliff Booth popcorn bucket",
       "design": "palm tree tub",
