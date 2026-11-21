@@ -7,7 +7,7 @@ X-WR-CALNAME:Popcorn Bucket Drops
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:amc-godzilla-minus-zero-exclusive-mystery-tin@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🍿 AMC: Godzilla Minus Zero — Mystery Tin (Godzilla and Villai
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-godzilla-popcorn-container-full-body@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Godzilla Popcorn Container (fu
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Swimming Godzilla bucket (Coll
@@ -81,15 +81,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-i-play-rocky-boxing-glove-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: I Play Rocky — Boxing glove bucket
 DESCRIPTION:Red boxing glove with "I Play Rocky" on the white cuff.\nComes
-  with popcorn\, in theaters\, while supplies last\nnot re-verified\nMovie
-  opens 2026-11-06\nhttps://hauntedattractionnetwork.com/rocky-popcorn-buc
- ket/\nhttps://swandrivein.com/product/i-play-rocky-glove-popcorn-bucket/\
- nhttps://movieweb.com/rocky-50th-anniversary-popcorn-bucket/
+  with popcorn\, in theaters\, while supplies last\nsold at AMC since Nov 
+ 5 while supplies last (Haunted Attraction Network\, updated Nov 10)\nMovi
+ e opens 2026-11-06\nhttps://hauntedattractionnetwork.com/rocky-popcorn-bu
+ cket/\nhttps://swandrivein.com/product/i-play-rocky-glove-popcorn-bucket/
+ \nhttps://movieweb.com/rocky-50th-anniversary-popcorn-bucket/
 URL:https://Gunnar404.github.io/popcorn-buckets/#amc-i-play-rocky-boxing-g
  love-bucket
 TRANSP:TRANSPARENT
@@ -101,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: I Play Rocky — I Play Rocky Boxing Glove Popcorn Buc
@@ -109,10 +110,11 @@ SUMMARY:🍿 Regal: I Play Rocky — I Play Rocky Boxing Glove Popcorn Buc
 DESCRIPTION:Red 10-inch boxing glove bucket\, 85 oz\, Rocky 50th anniversa
  ry.\nPrice: $34.99 online (Regal store\, 85 oz\, limit 3)\; in-theater pr
  ice not posted\nSelect theaters\, while supplies last\; Rocky Collectible
-  Combo also sold\nnot re-verified\nMovie opens 2026-11-06\nhttps://haunte
- dattractionnetwork.com/rocky-popcorn-bucket/\nhttps://swandrivein.com/pro
- duct/i-play-rocky-glove-popcorn-bucket/\nhttps://store.regmovies.com/prod
- ucts/rocky-50th-anniversary-popcorn-bucket-boxing-glove
+  Combo also sold\nat select Regal theaters from Nov 5 (Haunted Attraction
+  Network\, updated Nov 10)\nMovie opens 2026-11-06\nhttps://hauntedattrac
+ tionnetwork.com/rocky-popcorn-bucket/\nhttps://swandrivein.com/product/i-
+ play-rocky-glove-popcorn-bucket/\nhttps://store.regmovies.com/products/ro
+ cky-50th-anniversary-popcorn-bucket-boxing-glove
 URL:https://Gunnar404.github.io/popcorn-buckets/#regal-i-play-rocky-i-play
  -rocky-boxing-glove-popcorn-bucket
 TRANSP:TRANSPARENT
@@ -124,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-top-hat-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Top Hat bucket
@@ -147,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-fish-bowl-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Fish Bowl bucket
@@ -170,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-thing-hair-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Thing hair bucket
@@ -189,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — The Cat's Hat Popcorn Bucket
@@ -209,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Fish Bowl Popcorn Bucket
@@ -230,7 +232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Collectible Combo (popcorn tin 
@@ -251,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Book Tin
@@ -275,7 +277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Collectib
@@ -298,7 +300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:🍿 AMC: The Hunger Games: Sunrise on the Reaping — Flint Strik
@@ -323,7 +325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-focker-in-law-lie-detector-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Focker In-Law — Lie Detector Popcorn Bucket
@@ -347,7 +349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-hexed-hexed-collectible-popcorn-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Hexed Collectible Popcorn Bucket (cauldron)
@@ -368,7 +370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-hexed-collectible-combo-character-tub@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Collectible Combo (character tub)
@@ -389,7 +391,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-further-mis-adventures-of-cliff-booth-cliff-booth-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 AMC: The Further Mis-Adventures of Cliff Booth — Cliff Boot
@@ -414,7 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-hexed-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🍿 AMC: Hexed — "Bucket" cauldron
@@ -435,7 +437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-avengers-doomsday-collectible-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Doctor Doom Collectible
@@ -457,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-sentinel-head@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Sentinel Head
@@ -477,7 +479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-team-icon-collectible@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Team Icon Collectible
@@ -498,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-doom-s-throne-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doom's Throne Popcorn Container
@@ -518,7 +520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-doctor-doom-statue@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doctor Doom Statue
@@ -538,7 +540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Collectible Combo and Premium C
@@ -559,7 +561,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Double sandworm bucket
@@ -580,7 +582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-thumper-container@popcorn-buckets
-DTSTAMP:20261119T124105Z
+DTSTAMP:20261121T124103Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Sandworm "thumper" container
