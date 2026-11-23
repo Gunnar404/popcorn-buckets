@@ -7,7 +7,7 @@ X-WR-CALNAME:Popcorn Bucket Drops
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:amc-godzilla-minus-zero-exclusive-mystery-tin@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🍿 AMC: Godzilla Minus Zero — Mystery Tin (Godzilla and Villai
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-godzilla-popcorn-container-full-body@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Godzilla Popcorn Container (fu
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-godzilla-minus-zero-swimming-godzilla-bucket-collectible-combo@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: Godzilla Minus Zero — Swimming Godzilla bucket (Coll
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-i-play-rocky-boxing-glove-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: I Play Rocky — Boxing glove bucket
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-i-play-rocky-i-play-rocky-boxing-glove-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: I Play Rocky — I Play Rocky Boxing Glove Popcorn Buc
@@ -126,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-top-hat-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Top Hat bucket
@@ -149,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-fish-bowl-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Fish Bowl bucket
@@ -172,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-cat-in-the-hat-thing-hair-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 AMC: The Cat in the Hat — Thing hair bucket
@@ -191,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-the-cat-s-hat-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — The Cat's Hat Popcorn Bucket
@@ -211,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-fish-bowl-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Fish Bowl Popcorn Bucket
@@ -232,7 +232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-cat-in-the-hat-collectible-combo-popcorn-tin-and-topper-cup@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🍿 Regal: The Cat in the Hat — Collectible Combo (popcorn tin 
@@ -253,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-book-shaped-collectible-tin@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Book Tin
@@ -277,7 +277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-the-hunger-games-sunrise-on-the-reaping-collectible-combo-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:🍿 Regal: The Hunger Games: Sunrise on the Reaping — Collectib
@@ -300,7 +300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-hunger-games-sunrise-on-the-reaping-flint-striker-tin@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:🍿 AMC: The Hunger Games: Sunrise on the Reaping — Flint Strik
@@ -325,19 +325,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-focker-in-law-lie-detector-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Focker In-Law — Lie Detector Popcorn Bucket
 DESCRIPTION:Tan briefcase-style polygraph machine with readout sheet\, kno
  bs\, gauge and finger sensor\; knob panel lifts to reach popcorn.\nComes 
  with large popcorn\, select theaters\, while supplies last\nselect theate
- rs starting Nov 24 (Fantasy Land News)\; Regal promo page did not list th
- e bucket as of Nov 11\nMovie opens 2026-11-25\nhttps://www.fantasylandnew
- s.com/2026/11/05/focker-in-law-lie-detector-popcorn-bucket-regal-cinemark
- /\nhttps://www.fantasylandnews.com/2026/11/11/focker-in-law-lie-detector-
- popcorn-bucket-on-sale-cinemark-fandango/\nhttps://hauntedattractionnetwo
- rk.com/focker-in-law-popcorn-bucket/
+ rs starting Nov 24 (Fantasy Land News\, Nov 22)\; Regal promo page did no
+ t list the bucket as of Nov 11\nMovie opens 2026-11-25\nhttps://www.fanta
+ sylandnews.com/2026/11/05/focker-in-law-lie-detector-popcorn-bucket-regal
+ -cinemark/\nhttps://www.fantasylandnews.com/2026/11/11/focker-in-law-lie-
+ detector-popcorn-bucket-on-sale-cinemark-fandango/\nhttps://hauntedattrac
+ tionnetwork.com/focker-in-law-popcorn-bucket/
 URL:https://Gunnar404.github.io/popcorn-buckets/#regal-focker-in-law-lie-d
  etector-popcorn-bucket
 TRANSP:TRANSPARENT
@@ -349,7 +349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-hexed-hexed-collectible-popcorn-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Hexed Collectible Popcorn Bucket (cauldron)
@@ -370,7 +370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-hexed-collectible-combo-character-tub@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 Regal: Hexed — Collectible Combo (character tub)
@@ -391,7 +391,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-the-further-mis-adventures-of-cliff-booth-cliff-booth-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:🍿 AMC: The Further Mis-Adventures of Cliff Booth — Cliff Boot
@@ -416,7 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-hexed-bucket-cauldron@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🍿 AMC: Hexed — "Bucket" cauldron
@@ -437,7 +437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-avengers-doomsday-collectible-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Doctor Doom Collectible
@@ -459,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-sentinel-head@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Sentinel Head
@@ -479,7 +479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-avengers-doomsday-team-icon-collectible@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Avengers: Doomsday — Team Icon Collectible
@@ -500,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-doom-s-throne-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doom's Throne Popcorn Container
@@ -520,7 +520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-doctor-doom-statue@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Doctor Doom Statue
@@ -540,7 +540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 Regal: Avengers: Doomsday — Collectible Combo and Premium C
@@ -549,7 +549,8 @@ DESCRIPTION:Premium: stone-look tin with Avengers logo plus cup topped wit
  h tiny Doom on throne. Standard: tin and cup printed with heroes.\nBoth f
  illed with popcorn and soda\nMovie opens 2026-12-18\nhttps://www.fantasyl
  andnews.com/movie-theater-popcorn-buckets/\nhttps://www.fantasylandnews.c
- om/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/
+ om/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/\nhttp
+ s://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/
 URL:https://Gunnar404.github.io/popcorn-buckets/#regal-avengers-doomsday-c
  ollectible-combo-and-premium-collectible-combo
 TRANSP:TRANSPARENT
@@ -561,7 +562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-popcorn-bucket@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Double sandworm bucket
@@ -582,17 +583,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amc-dune-part-three-sandworm-thumper-container@popcorn-buckets
-DTSTAMP:20261121T124103Z
+DTSTAMP:20261123T124200Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:🍿 AMC: Dune: Part Three — Sandworm "thumper" container
 DESCRIPTION:Sandworm rising from the lid\, with a thumper on the side that
   "really thumps."\nsources disagree whether it is a cup or popcorn bucket
- \nMovie opens 2026-12-18\nhttps://www.fantasylandnews.com/2026/10/29/dune
- -part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-
- thumper-cup/\nhttps://nerdist.com/article/dune-part-three-popcorn-buckets
- -sandworm-holes-thumping/\nhttps://hauntedattractionnetwork.com/dune-aven
- gers-doomsday-popcorn-buckets/
+  (Nerd Snack\, Nov 15\, calls it a drink container)\nMovie opens 2026-12-
+ 18\nhttps://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-bu
+ ckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/\nhttps://
+ nerdist.com/article/dune-part-three-popcorn-buckets-sandworm-holes-thumpi
+ ng/\nhttps://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-
+ buckets/
 URL:https://Gunnar404.github.io/popcorn-buckets/#amc-dune-part-three-sandw
  orm-thumper-container
 TRANSP:TRANSPARENT

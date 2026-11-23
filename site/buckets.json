@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T12:41:03.604Z",
+  "updatedAt": "2026-11-23T12:42:00.106Z",
   "buckets": [
     {
       "id": "amc-godzilla-minus-zero-exclusive-mystery-tin",
@@ -333,7 +333,7 @@
       "design": "lie detector",
       "chain": "Regal",
       "availableDate": "2026-11-24",
-      "dateNote": "select theaters starting Nov 24 (Fantasy Land News); Regal promo page did not list the bucket as of Nov 11",
+      "dateNote": "select theaters starting Nov 24 (Fantasy Land News, Nov 22); Regal promo page did not list the bucket as of Nov 11",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
@@ -346,7 +346,7 @@
       ],
       "image": "images/regal-focker-in-law-lie-detector-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T23:00:37.646Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "kids": false
     },
     {
@@ -367,11 +367,12 @@
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://piratesandprincesses.net/disneys-hexed-gets-a-cauldron-popcorn-bucket-at-4-theater-chains/",
         "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
-        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/",
+        "https://www.fantasylandnews.com/2026/11/23/disney-hexed-merch-popcorn-buckets-funko-books-billie-meet-and-greet/"
       ],
       "image": "images/regal-hexed-hexed-collectible-popcorn-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "cauldron",
       "kids": false
     },
@@ -398,7 +399,7 @@
       ],
       "image": "images/regal-hexed-collectible-combo-character-tub.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "hexed collectible combo",
       "kids": false
     },
@@ -422,7 +423,7 @@
       ],
       "image": "images/amc-the-further-mis-adventures-of-cliff-booth-cliff-booth-popcorn-bucket.jpg",
       "firstSeen": "2026-11-17T12:41:17.065Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z"
+      "lastSeen": "2026-11-23T12:42:00.106Z"
     },
     {
       "id": "amc-hexed-bucket-cauldron",
@@ -440,11 +441,12 @@
         "https://www.fantasylandnews.com/2026/11/11/hexed-amc-disney-springs-takeover-photo-op-popcorn-bucket/",
         "https://www.fantasylandnews.com/2026/10/20/disneys-hexed-cauldron-popcorn-bucket-is-coming-to-regal-amc-and-cinemark/",
         "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
-        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/"
+        "https://www.laughingplace.com/disney-entertainment/hexed-movie-theater-popcorn-buckets-collectibles-2026/",
+        "https://www.fantasylandnews.com/2026/11/23/disney-hexed-merch-popcorn-buckets-funko-books-billie-meet-and-greet/"
       ],
       "image": "images/amc-hexed-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "cauldron",
       "kids": false
     },
@@ -466,11 +468,12 @@
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
         "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
-        "https://www.comicbasics.com/?p=202629"
+        "https://www.comicbasics.com/?p=202629",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/amc-avengers-doomsday-avengers-doomsday-collectible-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -491,11 +494,12 @@
         "https://attractionsmagazine.com/avengers-doomsday-popcorn-buckets-sippers-revealed/",
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
         "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
-        "https://www.comicbasics.com/?p=202629"
+        "https://www.comicbasics.com/?p=202629",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/amc-avengers-doomsday-sentinel-head.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "sentinel head",
       "kids": false
     },
@@ -517,11 +521,12 @@
         "https://wdwnt.com/2026/10/amc-theatres-reveals-avengers-doomsday-popcorn-bucket-collectibles/",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
         "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
-        "https://www.comicbasics.com/?p=202629"
+        "https://www.comicbasics.com/?p=202629",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/amc-avengers-doomsday-team-icon-collectible.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "team icon hexagon",
       "kids": false
     },
@@ -544,11 +549,12 @@
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
         "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/",
         "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
-        "https://www.comicbasics.com/?p=202629"
+        "https://www.comicbasics.com/?p=202629",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/regal-avengers-doomsday-doom-s-throne-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "doom throne",
       "kids": false
     },
@@ -569,11 +575,12 @@
         "https://www.regmovies.com/promotions/avengers",
         "https://www.comicbasics.com/every-avengers-doomsday-theater-merch-item-revealed-at-amc-regal-and-cinemark/",
         "https://www.fantasylandnews.com/2026/10/31/regal-avengers-doomsday-popcorn-buckets-magic-card-3d-glasses/",
-        "https://www.comicbasics.com/?p=202629"
+        "https://www.comicbasics.com/?p=202629",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/regal-avengers-doomsday-doctor-doom-statue.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -591,11 +598,12 @@
       "imageUrl": "https://www.fantasylandnews.com/wp-content/uploads/2026/10/866725609_1422305286152634_3896925503307110699_n.jpg",
       "sources": [
         "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
-        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/"
+        "https://www.fantasylandnews.com/2026/10/29/avengers-doomsday-popcorn-buckets-regal-amc-cinemark/",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "avengers collectible combo",
       "kids": false
     },
@@ -616,11 +624,12 @@
         "https://hollywoodlife.com/2026/10/29/dune-3-popcorn-bucket-cost/",
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/",
-        "https://www.fantasylandnews.com/2026/10/30/amcs-dune-part-three-popcorn-bucket-is-for-the-guys-and-this-time-it-has-two-holes/"
+        "https://www.fantasylandnews.com/2026/10/30/amcs-dune-part-three-popcorn-bucket-is-for-the-guys-and-this-time-it-has-two-holes/",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/amc-dune-part-three-sandworm-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "double sandworm",
       "kids": false
     },
@@ -630,7 +639,7 @@
       "name": "Sandworm \"thumper\" container",
       "chain": "AMC",
       "availableDate": "2026-12-17",
-      "dateNote": "sources disagree whether it is a cup or popcorn bucket",
+      "dateNote": "sources disagree whether it is a cup or popcorn bucket (Nerd Snack, Nov 15, calls it a drink container)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": null,
@@ -639,11 +648,12 @@
       "sources": [
         "https://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/",
         "https://nerdist.com/article/dune-part-three-popcorn-buckets-sandworm-holes-thumping/",
-        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/"
+        "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/amc-dune-part-three-sandworm-thumper-container.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "kids": false,
       "design": "sandworm thumper"
     },
@@ -653,7 +663,7 @@
       "name": "Spacing Guild Navigator Popcorn Bucket",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 21 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 23 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
@@ -664,11 +674,12 @@
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/",
         "https://www.fantasylandnews.com/movie-theater-popcorn-buckets/",
-        "https://www.enstarz.com/articles/246375/20261101/dune-part-three-popcorn-buckets-amc-regal-cinemark.htm"
+        "https://www.enstarz.com/articles/246375/20261101/dune-part-three-popcorn-buckets-amc-regal-cinemark.htm",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/regal-dune-part-three-spacing-guild-navigator-bucket.png",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "navigator vessel",
       "kids": false
     },
@@ -678,7 +689,7 @@
       "name": "Dune Collectible Combo bucket",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 21 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 23 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
@@ -687,11 +698,12 @@
       "sources": [
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
         "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/",
-        "https://www.enstarz.com/articles/246375/20261101/dune-part-three-popcorn-buckets-amc-regal-cinemark.htm"
+        "https://www.enstarz.com/articles/246375/20261101/dune-part-three-popcorn-buckets-amc-regal-cinemark.htm",
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
       ],
       "image": "images/regal-dune-part-three-dune-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-21T12:41:03.604Z",
+      "lastSeen": "2026-11-23T12:42:00.106Z",
       "design": "dune collectible combo",
       "kids": false
     },
