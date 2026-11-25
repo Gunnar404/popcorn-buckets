@@ -278,7 +278,7 @@
       "design": "sandworm thumper",
       "chain": "AMC",
       "availableDate": "2026-12-17",
-      "dateNote": "sources disagree whether it is a cup or popcorn bucket (Nerd Snack, Nov 15, calls it a drink container)",
+      "dateNote": "in theaters Dec 17; Fantasy Land News (Nov 22) lists it as a collectible tin with a working thumper on the lid, i.e. a popcorn container",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": null,
@@ -289,7 +289,8 @@
         "https://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/",
         "https://nerdist.com/article/dune-part-three-popcorn-buckets-sandworm-holes-thumping/",
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
-        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/",
+        "https://www.fantasylandnews.com/2026/11/22/dune-part-three-amc-popcorn-buckets-go-on-sale-december-17-full-lineup-and-exclusives/"
       ]
     },
     {
@@ -334,6 +335,48 @@
         "https://www.fantasylandnews.com/2026/10/30/regals-dune-bucket-is-for-the-ladies-batteries-not-included-extra-butter-recommended/",
         "https://www.enstarz.com/articles/246375/20261101/dune-part-three-popcorn-buckets-amc-regal-cinemark.htm",
         "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
+      ]
+    },
+    {
+      "existingId": null,
+      "movie": "Werwulf",
+      "name": "Werwulf popcorn bucket (werewolf paw)",
+      "design": "werewolf paw",
+      "chain": "Regal",
+      "availableDate": "2026-12-18",
+      "dateNote": "select Regal theaters starting Dec 18, a week before the Dec 25 opening",
+      "movieReleaseDate": "2026-12-25",
+      "price": null,
+      "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
+      "description": "Severed werewolf paw with shaggy black fur, five splayed bloodied claws; sits claws-down with popcorn in the wrist opening (Alamo lists 53 oz, 9 x 14 in).",
+      "kids": false,
+      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/werwulf-popcorn-bucket-claw.jpg",
+      "sources": [
+        "https://hauntedattractionnetwork.com/werwulf-popcorn-bucket/",
+        "https://attractionsmagazine.com/werwulf-popcorn-bucket-2026/",
+        "https://www.comicbasics.com/werwulf-gets-a-bloody-claw-popcorn-bucket-ahead-of-its-christmas-release/",
+        "https://creepycatalog.com/robert-eggers-werwulf-gets-a-werewolf-paw-popcorn-bucket-before-its-christmas-day-release/"
+      ]
+    },
+    {
+      "existingId": null,
+      "movie": "Werwulf",
+      "name": "Claw Collectible",
+      "design": "werewolf paw",
+      "chain": "AMC",
+      "availableDate": "2026-12-24",
+      "dateNote": "in theaters starting Thursday Dec 24 (Christmas Eve)",
+      "movieReleaseDate": "2026-12-25",
+      "price": null,
+      "purchaseNotes": "Includes popcorn (gourmet excluded), in theaters only, while supplies last",
+      "description": "Severed werewolf paw with shaggy black fur, five splayed bloodied claws; sits claws-down with popcorn in the wrist opening (Alamo lists 53 oz, 9 x 14 in).",
+      "kids": false,
+      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/werwulf-popcorn-bucket-claw.jpg",
+      "sources": [
+        "https://hauntedattractionnetwork.com/werwulf-popcorn-bucket/",
+        "https://attractionsmagazine.com/werwulf-popcorn-bucket-2026/",
+        "https://www.comicbasics.com/werwulf-gets-a-bloody-claw-popcorn-bucket-ahead-of-its-christmas-release/",
+        "https://creepycatalog.com/robert-eggers-werwulf-gets-a-werewolf-paw-popcorn-bucket-before-its-christmas-day-release/"
       ]
     }
   ]
