@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:42:00.106Z",
+  "updatedAt": "2026-11-25T12:41:29.024Z",
   "buckets": [
     {
       "id": "amc-godzilla-minus-zero-exclusive-mystery-tin",
@@ -346,7 +346,7 @@
       ],
       "image": "images/regal-focker-in-law-lie-detector-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T23:00:37.646Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "kids": false
     },
     {
@@ -372,7 +372,7 @@
       ],
       "image": "images/regal-hexed-hexed-collectible-popcorn-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "cauldron",
       "kids": false
     },
@@ -399,7 +399,7 @@
       ],
       "image": "images/regal-hexed-collectible-combo-character-tub.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "hexed collectible combo",
       "kids": false
     },
@@ -423,7 +423,7 @@
       ],
       "image": "images/amc-the-further-mis-adventures-of-cliff-booth-cliff-booth-popcorn-bucket.jpg",
       "firstSeen": "2026-11-17T12:41:17.065Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z"
+      "lastSeen": "2026-11-25T12:41:29.024Z"
     },
     {
       "id": "amc-hexed-bucket-cauldron",
@@ -446,7 +446,7 @@
       ],
       "image": "images/amc-hexed-bucket-cauldron.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "cauldron",
       "kids": false
     },
@@ -473,7 +473,7 @@
       ],
       "image": "images/amc-avengers-doomsday-avengers-doomsday-collectible-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -499,7 +499,7 @@
       ],
       "image": "images/amc-avengers-doomsday-sentinel-head.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "sentinel head",
       "kids": false
     },
@@ -526,7 +526,7 @@
       ],
       "image": "images/amc-avengers-doomsday-team-icon-collectible.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "team icon hexagon",
       "kids": false
     },
@@ -554,7 +554,7 @@
       ],
       "image": "images/regal-avengers-doomsday-doom-s-throne-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "doom throne",
       "kids": false
     },
@@ -580,7 +580,7 @@
       ],
       "image": "images/regal-avengers-doomsday-doctor-doom-statue.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "doctor doom statue",
       "kids": false
     },
@@ -603,7 +603,7 @@
       ],
       "image": "images/regal-avengers-doomsday-collectible-combo-and-premium-collectible-combo.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "avengers collectible combo",
       "kids": false
     },
@@ -629,7 +629,7 @@
       ],
       "image": "images/amc-dune-part-three-sandworm-popcorn-bucket.jpg",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "double sandworm",
       "kids": false
     },
@@ -639,7 +639,7 @@
       "name": "Sandworm \"thumper\" container",
       "chain": "AMC",
       "availableDate": "2026-12-17",
-      "dateNote": "sources disagree whether it is a cup or popcorn bucket (Nerd Snack, Nov 15, calls it a drink container)",
+      "dateNote": "in theaters Dec 17; Fantasy Land News (Nov 22) lists it as a collectible tin with a working thumper on the lid, i.e. a popcorn container",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": null,
@@ -649,13 +649,62 @@
         "https://www.fantasylandnews.com/2026/10/29/dune-part-three-popcorn-buckets-revealed-copper-sandworm-double-sandworm-and-thumper-cup/",
         "https://nerdist.com/article/dune-part-three-popcorn-buckets-sandworm-holes-thumping/",
         "https://hauntedattractionnetwork.com/dune-avengers-doomsday-popcorn-buckets/",
-        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/"
+        "https://nerdsnack.com/avengers-doomsday-dune-3-popcorn-buckets/",
+        "https://www.fantasylandnews.com/2026/11/22/dune-part-three-amc-popcorn-buckets-go-on-sale-december-17-full-lineup-and-exclusives/"
       ],
       "image": "images/amc-dune-part-three-sandworm-thumper-container.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "kids": false,
       "design": "sandworm thumper"
+    },
+    {
+      "id": "regal-werwulf-werwulf-popcorn-bucket-werewolf-paw",
+      "movie": "Werwulf",
+      "name": "Werwulf popcorn bucket (werewolf paw)",
+      "design": "werewolf paw",
+      "chain": "Regal",
+      "availableDate": "2026-12-18",
+      "dateNote": "select Regal theaters starting Dec 18, a week before the Dec 25 opening",
+      "movieReleaseDate": "2026-12-25",
+      "price": null,
+      "purchaseNotes": "Comes with large popcorn, select theaters, while supplies last",
+      "description": "Severed werewolf paw with shaggy black fur, five splayed bloodied claws; sits claws-down with popcorn in the wrist opening (Alamo lists 53 oz, 9 x 14 in).",
+      "kids": false,
+      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/werwulf-popcorn-bucket-claw.jpg",
+      "sources": [
+        "https://hauntedattractionnetwork.com/werwulf-popcorn-bucket/",
+        "https://attractionsmagazine.com/werwulf-popcorn-bucket-2026/",
+        "https://www.comicbasics.com/werwulf-gets-a-bloody-claw-popcorn-bucket-ahead-of-its-christmas-release/",
+        "https://creepycatalog.com/robert-eggers-werwulf-gets-a-werewolf-paw-popcorn-bucket-before-its-christmas-day-release/"
+      ],
+      "image": "images/regal-werwulf-werwulf-popcorn-bucket-werewolf-paw.jpg",
+      "firstSeen": "2026-11-25T12:41:29.024Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z"
+    },
+    {
+      "id": "amc-werwulf-claw-collectible",
+      "movie": "Werwulf",
+      "name": "Claw Collectible",
+      "design": "werewolf paw",
+      "chain": "AMC",
+      "availableDate": "2026-12-24",
+      "dateNote": "in theaters starting Thursday Dec 24 (Christmas Eve)",
+      "movieReleaseDate": "2026-12-25",
+      "price": null,
+      "purchaseNotes": "Includes popcorn (gourmet excluded), in theaters only, while supplies last",
+      "description": "Severed werewolf paw with shaggy black fur, five splayed bloodied claws; sits claws-down with popcorn in the wrist opening (Alamo lists 53 oz, 9 x 14 in).",
+      "kids": false,
+      "imageUrl": "https://hauntedattractionnetwork.com/wp-content/uploads/werwulf-popcorn-bucket-claw.jpg",
+      "sources": [
+        "https://hauntedattractionnetwork.com/werwulf-popcorn-bucket/",
+        "https://attractionsmagazine.com/werwulf-popcorn-bucket-2026/",
+        "https://www.comicbasics.com/werwulf-gets-a-bloody-claw-popcorn-bucket-ahead-of-its-christmas-release/",
+        "https://creepycatalog.com/robert-eggers-werwulf-gets-a-werewolf-paw-popcorn-bucket-before-its-christmas-day-release/"
+      ],
+      "image": "images/amc-werwulf-claw-collectible.jpg",
+      "firstSeen": "2026-11-25T12:41:29.024Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z"
     },
     {
       "id": "regal-dune-part-three-spacing-guild-navigator-bucket",
@@ -679,7 +728,7 @@
       ],
       "image": "images/regal-dune-part-three-spacing-guild-navigator-bucket.png",
       "firstSeen": "2026-11-11T21:23:20.282Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "navigator vessel",
       "kids": false
     },
@@ -703,7 +752,7 @@
       ],
       "image": "images/regal-dune-part-three-dune-collectible-combo-bucket.jpg",
       "firstSeen": "2026-11-11T22:39:11.949Z",
-      "lastSeen": "2026-11-23T12:42:00.106Z",
+      "lastSeen": "2026-11-25T12:41:29.024Z",
       "design": "dune collectible combo",
       "kids": false
     },
