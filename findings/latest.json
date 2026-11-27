@@ -94,7 +94,7 @@
       "design": "cauldron",
       "chain": "AMC",
       "availableDate": "2026-11-25",
-      "dateNote": "\"coming for opening day\" Nov 25; no earlier AMC date stated",
+      "dateNote": "AMC starting Wednesday Nov 25 (opening day), per Fantasy Land News Nov 23",
       "movieReleaseDate": "2026-11-25",
       "price": null,
       "purchaseNotes": "Comes with popcorn; Kettle Corn extra; Stubs upgrades don't apply",
@@ -300,7 +300,7 @@
       "design": "navigator vessel",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 23 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 27 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Comes with large popcorn",
@@ -323,7 +323,7 @@
       "design": "dune collectible combo",
       "chain": "Regal",
       "availableDate": null,
-      "dateNote": "December 2026; exact date still not announced as of Nov 23 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
+      "dateNote": "December 2026; exact date still not announced as of Nov 27 (Regal says \"this December\"; AMC Dune and Regal Doomsday items start Dec 17)",
       "movieReleaseDate": "2026-12-18",
       "price": null,
       "purchaseNotes": "Filled with popcorn and soda, select theaters",
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "existingId": null,
+      "existingId": "regal-werwulf-werwulf-popcorn-bucket-werewolf-paw",
       "movie": "Werwulf",
       "name": "Werwulf popcorn bucket (werewolf paw)",
       "design": "werewolf paw",
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "existingId": null,
+      "existingId": "amc-werwulf-claw-collectible",
       "movie": "Werwulf",
       "name": "Claw Collectible",
       "design": "werewolf paw",
